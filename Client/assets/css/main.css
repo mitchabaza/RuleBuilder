@@ -1,0 +1,25 @@
+﻿
+.form-group {
+    display: inline-block;
+}    
+
+ button[disabled] {
+     cursor:not-allowed;
+ }
+ select::-ms-expand {
+            width:12px;
+            border:none;
+            background:#fff;
+        }
+button {
+    margin-right: 15px;
+
+}
+#body .btn {
+    background-color: #e0e0e0;
+ }
+
+.form-control{
+    width: 150px;
+    margin-right:20px
+} 
