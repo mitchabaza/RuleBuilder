@@ -10,6 +10,10 @@ var app = React.createClass( {
 	
 	},
 	 
+	focus:function(){
+	
+		 this.refs.textInput.getInputDOMNode().focus();
+	},
     render: function() { 
 	 
 

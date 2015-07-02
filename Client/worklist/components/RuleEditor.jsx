@@ -1,34 +1,58 @@
 ﻿var React = require("React");
 var SubjectStore= require("../Stores/SubjectStore.js") 
-
+var SaveRule = require("../Actions/SaveRuleActionCreator.js");
 var RuleStore= require("../Stores/RuleStore.js") 
 var createStoreMixin = require('../mixins/StoreListenerMixin')
- var Rule= require("./rule.jsx")
+var Rule= require("./rule.jsx")
+var Select= require("./Select.jsx")
 
-
+var Bootstrap=require('react-bootstrap') 
+var ClearRule = require("../Actions/ClearRulesActionCreator.js");
 var app = React.createClass({
 	mixins: [createStoreMixin([SubjectStore,RuleStore])] ,
-    render: function() { 
-	var noMoreRules = this.state.rules.length==5
+	getInitialState:function(){
+		return {activeRule:null}
+	},
+	onHandleSaveClick:function(){
+		SaveRule.fire();
+	},
+	onHandleClearClick:function(){
+		ClearRule.fire();
+	},
+    handleOnSelect:function(id){
+		this.setState({activeRule:id})
+	},
+	handleRuleClick:function(){
+		 
+	},
+	render: function() { 
+	var noMoreRules = this.state.rules.length==10
 	
 	var rules = [];
 	var self=this;
 	this.state.rules.map(function(rule){
-		rules.push(<Rule key={rule.id} preventNewRules={noMoreRules} subjects={self.state.subjects} rule={rule}/>)
+		rules.push(<Rule onRuleSelect={self.handleOnSelect} key={rule.id} active={self.state.activeRule==rule.id} preventNewRules={noMoreRules} subjects={self.state.subjects} rule={rule}/>)
 	})
 	return (
 		<div className="container" >
 
 		<h3>Patient Rule Creator</h3>
-		<div className="alert alert-warning" style={{display:noMoreRules?'block':'none'}} role="alert"><b>Warning!</b>&nbsp;&nbsp;  Maximum number of rule blocks has been added, you dumbass!</div>
+		<div className="alert alert-warning" style={{display:noMoreRules?'block':'none'}} role="alert">
+		<b>Warning!</b>&nbsp;&nbsp;  Maximum number of rule blocks has been added, you dumbass!</div>
 		
 		<div className="panel panel-default">
-		<div className="panel-heading">Create a Rule...</div>
-	<div className="panel-body">
-			{rules}
+		<div className="panel-heading clearfix ">Match  <Bootstrap.ButtonGroup>
+    <Bootstrap.Button style={{"margin-right":"0px"}} >Any</Bootstrap.Button>
+    <Bootstrap.Button>All</Bootstrap.Button>
+    </Bootstrap.ButtonGroup>    <Bootstrap.Button className="pull-right" onClick={this.onHandleClearClick} type="button">Clear</Bootstrap.Button><Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.onHandleSaveClick} type="button">Save</Bootstrap.Button>
 		</div>
-		 
-		</div></div>
+		<div className="panel-body">
+			{rules}
+				
+		</div>
+	</div>
+		
+		</div>
 	)
     },
 

@@ -6599,11 +6599,18 @@ button {
     margin-right: 15px;
 
 }
-#body .btn {
-    background-color: #e0e0e0;
- }
+
+.form-group {
+     margin-right: 15px;
+}
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+   
+    display: inline;
+}
+
 
 .form-control{
-    width: 150px;
     margin-right:20px
 } 

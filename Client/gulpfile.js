@@ -13,7 +13,7 @@ var createBundles, createBundle;
 var files = [
       {
         input: ['./worklist/bootstrap.js'],
-        output: 'worklist.js',
+        output: 'app.js',
         extensions: ['.js'],
         destination: '../WebApplication/app/js/'
     }

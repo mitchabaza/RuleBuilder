@@ -6,12 +6,16 @@ var Input=require('react-bootstrap').Input
 var app = React.createClass( {
  	 
 	 getValue:function(){
-		return this.refs.select.getInputDOMNode().value;	
+		return this.refs.selectInput.getInputDOMNode().value;	
+	},
+		focus:function(){
+	
+		 this.refs.selectInput.getInputDOMNode().focus();
 	},
 
     render: function() { 
 	 
-		return (<Input onChange={this.props.onChange.bind(this,this)} type='select' ref="select" value={this.props.value} standalone placeholder='select' >
+		return (<Input className="form-control-inline" onChange={this.props.onChange.bind(this,this)} type='select' ref="selectInput" value={this.props.value} standalone placeholder='select' >
 			<option value="select">Select...</option>
 			<option value="1">Pediatric Intensive Care Unit </option>
 			<option value="2">Emergency Department (ED)</option>
