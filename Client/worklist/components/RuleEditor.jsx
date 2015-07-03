@@ -38,13 +38,11 @@ var app = React.createClass({
 
 		<h3>Patient Rule Creator</h3>
 		<div className="alert alert-warning" style={{display:noMoreRules?'block':'none'}} role="alert">
-		<b>Warning!</b>&nbsp;&nbsp;  Maximum number of rule blocks has been added, you dumbass!</div>
+		<b>Warning!</b>&nbsp;&nbsp;  Your rule is getting too complicated you dumbass!!</div>
 		
 		<div className="panel panel-default">
-		<div className="panel-heading clearfix ">Match  <Bootstrap.ButtonGroup>
-    <Bootstrap.Button style={{"margin-right":"0px"}} >Any</Bootstrap.Button>
-    <Bootstrap.Button>All</Bootstrap.Button>
-    </Bootstrap.ButtonGroup>    <Bootstrap.Button className="pull-right" onClick={this.onHandleClearClick} type="button">Clear</Bootstrap.Button><Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.onHandleSaveClick} type="button">Save</Bootstrap.Button>
+		<div className="panel-heading clearfix">Match <Select onChange={this.handleRuleClick} options={[{id:1,name:"all"},{id:2,name:"any"}]}/>of the following conditions
+		<Bootstrap.Button className="pull-right" onClick={this.onHandleClearClick} type="button">Clear</Bootstrap.Button><Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.onHandleSaveClick} type="button">Save</Bootstrap.Button>
 		</div>
 		<div className="panel-body">
 			{rules}

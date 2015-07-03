@@ -23,7 +23,7 @@ var Select = React.createClass({
 		   })
 		return (
 	
-			 <Input  ref={this.props.ref} style ={this.props.style} ref="select" onChange={self.props.onChange.bind(null, this)} type='select' value={self.props.selected}  placeholder='select' >
+			 <Input  ref={this.props.ref} style ={this.props.style} ref="select" onChange={self.props.onChange.bind(null, this)} type='select' value={self.props.selected} standalone placeholder='select' >
 			  {options}
 			</Input>
 		)
