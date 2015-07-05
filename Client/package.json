@@ -34,6 +34,8 @@
     "moment": "^2.9.0",
     "react": "^0.13.3",
     "react-bootstrap": "^0.23.7",
+    "react-bootstrap-datetimepicker": "0.0.18",
+    "react-datepicker": "^0.8.0",
     "react-select": "^0.5.2",
     "react-tools": "^0.13.3",
     "reactify": "^1.1.1",

@@ -15,7 +15,7 @@ var app = React.createClass( {
 
     render: function() { 
 	 
-		return (<Input className="form-control-inline" onChange={this.props.onChange.bind(this,this)} type='select' ref="selectInput" value={this.props.value}  placeholder='select' >
+		return (<Input className="form-control-inline" onChange={this.props.onChange.bind(null,this)} type='select' ref="selectInput" value={this.props.value}  placeholder='select' >
 			<option value="select">Select...</option>
 			<option value="1">Pediatric Intensive Care Unit </option>
 			<option value="2">Emergency Department (ED)</option>

@@ -13,6 +13,7 @@ var Store = new BaseStore({
                     { name: "Equals", id: 2 },
                     { name: "Is Not Null", id: 3 },
                     { name: "Contains", id: 4 },
+                    { name: "Does Not Contain", id: 213224 },
                     { name: "Ends With", id: 5 },
                     { name: "Starts With", id: 6 },
                     { name: "Is Null", id: 7 }
@@ -40,6 +41,18 @@ var Store = new BaseStore({
                 operators: [
                     { name: "Is True", id: 216 },
                     { name: "Is False ", id: 217 }
+                ]
+            },
+            {
+                type: DataTypes.DATE,
+                operators: [
+                    { name: "Is", id: 1216 },
+                    { name: "Is After", id: 2217 },
+                    { name: "Is Before", id: 21216 },
+                    { name: "Is In The Range", id: 121216 },
+                    { name: "Is In The Last", id: 751212 }
+
+
                 ]
             }
         ];

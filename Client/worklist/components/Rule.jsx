@@ -1,91 +1,73 @@
 ﻿var React = require("React");
-var Button= require('react-bootstrap').Button; 
-var AddRule = require("../Actions/AddRuleActionCreator.js");
-var ChangeRule = require("../Actions/ChangeRuleSubjectActionCreator.js");
-var DeleteRule = require("../Actions/DeleteRuleActionCreator.js");
-var Select = require('./Select.jsx');
-var Glyphicon = require('react-bootstrap').Glyphicon
+var SubjectStore= require("../Stores/SubjectStore.js") 
+var SaveRule = require("../Actions/SaveRuleActionCreator.js");
+var RuleStore= require("../Stores/RuleStore.js") 
 var createStoreMixin = require('../mixins/StoreListenerMixin')
-var Input=require('react-bootstrap').Input 
-var OperatorStore= require("../Stores/OperatorStore.js") 
-var RightHandExpressionFactory= require("./RightHandExpressions/Factory.jsx") 
-var DataTypes = require('../Constants/SubjectConstants.js');
-var _ =require("lodash");
-
+var Predicate= require("./predicate.jsx")
+var Select= require("./Select.jsx")
+var UpdateRule = require("../Actions/UpdateRuleActionCreator.js");
+var Bootstrap=require('react-bootstrap') 
+var ClearRule = require("../Actions/ClearRulesActionCreator.js");
 var app = React.createClass({
-
-
-		
-	 	mixins: [createStoreMixin([OperatorStore])],
-		handleAddRule:function(){
-			AddRule.fire()
-		},
-		handleValueChange:function(e){
-			var ruleChange=_.clone(this.props.rule )
-		    ruleChange.value=e.getValue();
-			ChangeRule.fire(ruleChange)
-		},
-		componentDidUpdate :function(){
-			if (this.refs.RightHandExpression!=null && this.props.active==true){
-				this.refs.RightHandExpression.focus()
-			}
-		  
-		},
-		
-		handleOperatorChange:function(e){
-		 	var ruleChange=_.clone(this.props.rule )
-			ruleChange.operator.id=e.getValue();
-			this.props.onRuleSelect(this.props.rule.id);
-			ChangeRule.fire(ruleChange)
-		},
-		handleSubjectChange:function(){
-			var ruleChange=_.clone(this.props.rule )
-			var subject = _.find(this.props.subjects, function(s){
-				return s.id==this.refs.subject.getValue()
-			},this)
-			ruleChange.value=null
-		    ruleChange.subject=subject;
-			this.props.onRuleSelect(null);
-			ChangeRule.fire(ruleChange)
-		},
-
-		handleDeleteRule:function(){
-			DeleteRule.fire(this.props.rule.id)
-		},
-		getOperatorList:function(){
-			var self=this;
+	mixins: [createStoreMixin([SubjectStore,RuleStore])] ,
+ 	onHandleSaveClick:function(){
+		SaveRule.fire();
+	},
+	getInitialState:function(){
+		return {rule:{matchType:1, predicates:null}}
+	},
+	onHandleClearClick:function(){
+		ClearRule.fire();
+	},
+    handleOnSelect:function(id){
+		this.setState({activePredicate:id})
+	},
+	handleMatchTypeClick:function(){
+		 UpdateRule.fire(this.refs.matchType.getValue())
+	},
+	render: function() { 
+		var preds = this.state.rule!=null?this.state.rule.predicates:null;
+		var preventNewPredicates;
+		var hideDelete ;
+		var predicates = [];
 	
-		   var item = _.find (this.state.operators, function(op){
-				return (op.type == self.props.rule.subject.type) 
-			 });
-			 
-			if (item===undefined){
+	if (preds!=null){
+		var preventNewPredicates= preds.length==10
+		var hideDelete = preds.length==1
+		var predicates = [];
 
-				return [];
-			};
-			return item.operators;
-			},
-		render: function() { 
-		 	
-		 	var operatorList = this.getOperatorList()	 
-			var  rightHandExpression= RightHandExpressionFactory.create(this.props.rule, this.handleValueChange)
- 				 
-			return (
-	
-			 <div>
-				 <button type="button" onClick={this.handleAddRule} disabled={this.props.preventNewRules} ><Glyphicon glyph='plus' /></button>
-				 <button type="button" onClick={this.handleDeleteRule} ><Glyphicon glyph='minus' /></button>
-				 <Select ref="subject" onChange={this.handleSubjectChange} options={this.props.subjects} selected={this.props.rule.subject.id} />
-				 <Select options={operatorList} onChange={this.handleOperatorChange} selected={this.props.rule.operator.id} />
-				 {rightHandExpression}
-			  </div>
-			)
-		},
+		var self=this;
+		this.state.rule.predicates.map(function(predicate){
+		predicates.push(<Predicate hideDelete={hideDelete} onPredicateSelect={self.handleOnSelect} key={predicate.id} active={self.state.activePredicate==predicate.id} preventNewPredicates={preventNewPredicates} subjects={self.state.subjects} rule={predicate}/>)
+		})
+
+	}
+	return (
+		<div className="container" >
+
+		<h3>Patient Rule Creator</h3>
+		<div className="alert alert-warning" style={{display:preventNewPredicates?'block':'none'}} role="alert">
+		<b>Warning!</b>&nbsp;&nbsp;  Your rule is getting too complicated you dumbass!!</div>
+		
+		<div className="panel panel-default">
+		<div className="panel-heading clearfix">Match <Select ref="matchType"  selected={this.state.rule.matchType} onChange={this.handleMatchTypeClick} options={[{id:1,name:"all"},{id:2,name:"any"}]}/>of the following conditions
+		<Bootstrap.Button className="pull-right" onClick={this.onHandleClearClick} type="button">Clear</Bootstrap.Button><Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.onHandleSaveClick} type="button">Save</Bootstrap.Button>
+		</div>
+		<div className="panel-body">
+			{predicates}
+				
+		</div>
+	</div>
+		
+		</div>
+	)
+    },
 
 
 	getStateFromStores:function() {
 		return {
-		operators: OperatorStore.getState()		};
+		rule:RuleStore.getState(),
+		subjects: SubjectStore.getState()		};
 	}
 
 })

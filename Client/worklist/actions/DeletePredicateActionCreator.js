@@ -5,7 +5,7 @@ var Actions = {
     fire: function (id) {
         
        
-        AppDispatcher.dispatchDeleteRule(id);
+        AppDispatcher.dispatchDeletePredicate(id);
     }
 };
 module.exports = Actions;

@@ -34,10 +34,11 @@
     <Compile Include="server.js" />
     <Compile Include="worklist\actions\LoadRuleActionCreator.js" />
     <Compile Include="worklist\actions\ClearRulesActionCreator.js" />
+    <Compile Include="worklist\actions\UpdateRuleActionCreator.js" />
     <Compile Include="worklist\actions\SaveRuleActionCreator.js" />
-    <Compile Include="worklist\actions\ChangeRuleSubjectActionCreator.js" />
-    <Compile Include="worklist\actions\DeleteRuleActionCreator.js" />
-    <Compile Include="worklist\actions\AddRuleActionCreator.js" />
+    <Compile Include="worklist\actions\ChangePredicateActionCreator.js" />
+    <Compile Include="worklist\actions\DeletePredicateActionCreator.js" />
+    <Compile Include="worklist\actions\AddPredicateActionCreator.js" />
     <Compile Include="worklist\api\formService.js" />
     <Compile Include="worklist\api\patientService.js" />
     <Compile Include="worklist\bootstrap.js" />
@@ -60,18 +61,19 @@
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\react-datepicker.min.css" />
     <Content Include="assets\img\glyphicons-halflings-regular.woff" />
     <Content Include="assets\img\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\img\glyphicons-halflings-white.png" />
     <Content Include="assets\img\glyphicons-halflings.png" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="worklist\components\RightHandExpressions\Date.jsx" />
     <Content Include="worklist\components\RightHandExpressions\Range.jsx" />
-    <Content Include="worklist\components\Rules.jsx" />
     <Content Include="worklist\components\RightHandExpressions\ComboBox.jsx" />
     <Content Include="worklist\components\RightHandExpressions\Text.jsx" />
+    <Content Include="worklist\components\Predicate.jsx" />
     <Content Include="worklist\components\Rule.jsx" />
-    <Content Include="worklist\components\RuleEditor.jsx" />
     <Content Include="worklist\components\Select.jsx" />
   </ItemGroup>
   <ItemGroup>

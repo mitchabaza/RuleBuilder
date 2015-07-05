@@ -2,7 +2,8 @@
 var Range = require('./Range.jsx');
 var PickList = require('./ComboBox.jsx');
 var DataTypes = require('../../Constants/SubjectConstants.js');
-
+var DatePicker=require('./Date.jsx')
+ 
 var React = require("React");  
 var Factory = {
         create: function(rule, onChange) {
@@ -15,10 +16,12 @@ var Factory = {
             if (rule.subject.type == DataTypes.DROP) {
                 component = PickList;
             }
-            if (rule.operator && rule.operator.id ==117) {
+            else if (rule.operator && (rule.operator.id ==117 || rule.operator.id ==121216)) {
                 component = Range;
             }
-            
+            else if (rule.subject.type == DataTypes.DATE ) {
+                component = Text;
+            }
             return React.createElement(component, { ref: "RightHandExpression",value: rule.value, onChange: onChange })
 
         }

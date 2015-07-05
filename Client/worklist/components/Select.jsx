@@ -5,7 +5,7 @@ var Select = React.createClass({
  
 	getDefaultProps: function() {
     return {
-      defaultOption: false
+      defaultOption: "true"
     }},
 	getValue:function(){
 		return this.refs.select.getInputDOMNode().value;	
@@ -13,7 +13,7 @@ var Select = React.createClass({
 
     render: function() { 
 		var options=[];
-		if (this.props.defaultOption){
+		if (this.props.defaultOption=="true"){
 			options.push(<option value='select'>Select...</option>);
 		}
 		var self=this;
