@@ -1,6 +1,4 @@
-﻿using System;
- 
-namespace WebService.Models
+﻿namespace Sentri7.Services.Models
 {
     public class PatientViewModel
     {

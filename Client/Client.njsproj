@@ -19,7 +19,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
     <StartWebBrowser>true</StartWebBrowser>
   </PropertyGroup>
@@ -42,7 +42,9 @@
     <Compile Include="worklist\api\formService.js" />
     <Compile Include="worklist\api\patientService.js" />
     <Compile Include="worklist\bootstrap.js" />
-    <Compile Include="worklist\components\RightHandExpressions\Factory.jsx" />
+    <Compile Include="worklist\components\RightHandExpressions\ExpressionHandlers\Diagnosis.jsx" />
+    <Compile Include="worklist\components\RightHandExpressions\index.js" />
+    <Compile Include="worklist\components\RightHandExpressions\Factory.js" />
     <Compile Include="worklist\constants\RuleActionConstants.js" />
     <Compile Include="worklist\constants\SubjectConstants.js" />
     <Compile Include="worklist\dispatcher\appDispatcher.js" />
@@ -57,24 +59,25 @@
     <Compile Include="worklist\stores\SubjectStore.js" />
     <Compile Include="worklist\__tests__\Input-tests.js" />
     <Compile Include="worklist\__tests__\preProcessor.js" />
-    <Compile Include="worklist\__tests__\sum-tests.js" />
     <Content Include="assets\css\bootstrap.css" />
-    <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\main.css" />
-    <Content Include="assets\css\react-datepicker.min.css" />
     <Content Include="assets\img\glyphicons-halflings-regular.woff" />
     <Content Include="assets\img\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\img\glyphicons-halflings-white.png" />
     <Content Include="assets\img\glyphicons-halflings.png" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="worklist\components\RightHandExpressions\Date.jsx" />
-    <Content Include="worklist\components\RightHandExpressions\Range.jsx" />
-    <Content Include="worklist\components\RightHandExpressions\ComboBox.jsx" />
-    <Content Include="worklist\components\RightHandExpressions\Text.jsx" />
+    <Content Include="worklist\components\Controls\AutoComplete.jsx" />
+    <Content Include="worklist\components\Controls\Date.jsx" />
+    <Content Include="worklist\components\RightHandExpressions\ExpressionHandlers\ServiceArea.jsx" />
+    <Content Include="worklist\components\RightHandExpressions\ExpressionHandlers\NumericRange.jsx" />
+    <Content Include="worklist\components\RightHandExpressions\ExpressionHandlers\Date.jsx" />
+    <Content Include="worklist\components\Controls\Range.jsx" />
+    <Content Include="worklist\components\Controls\ComboBox.jsx" />
+    <Content Include="worklist\components\Controls\Text.jsx" />
     <Content Include="worklist\components\Predicate.jsx" />
     <Content Include="worklist\components\Rule.jsx" />
-    <Content Include="worklist\components\Select.jsx" />
+    <Content Include="worklist\components\Controls\Select.jsx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\css\" />
@@ -84,7 +87,9 @@
     <Folder Include="worklist\actions\" />
     <Folder Include="worklist\api\" />
     <Folder Include="worklist\components\" />
+    <Folder Include="worklist\components\Controls\" />
     <Folder Include="worklist\components\RightHandExpressions\" />
+    <Folder Include="worklist\components\RightHandExpressions\ExpressionHandlers\" />
     <Folder Include="worklist\constants\" />
     <Folder Include="worklist\dispatcher\" />
     <Folder Include="worklist\mixins\" />

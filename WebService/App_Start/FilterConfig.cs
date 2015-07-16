@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace WebService
+namespace Sentri7.Services
 {
     public class FilterConfig
     {

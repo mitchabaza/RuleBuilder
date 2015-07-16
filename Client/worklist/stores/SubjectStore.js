@@ -7,7 +7,7 @@ var Store = new BaseStore({
     displayName: 'SubjectStore',
     events: ['change'],
     getState: function() {
-        return [{ name: "Diagnosis", type: DataTypes.TEXT, id: 1 },
+        return [{ name: "Diagnosis", type: DataTypes.DROP, id: 1 },
              { name: "Heart Rate", type: DataTypes.NUMERIC , id: 2 },
              { name: "Oxygenation", type: DataTypes.NUMERIC , id: 5 },            
              { name: "Readmission", type: DataTypes.BOOL, id: 15 },            

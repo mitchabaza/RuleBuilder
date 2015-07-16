@@ -4,9 +4,8 @@ var Actions = require('../constants/RuleActionConstants');
 var _ = require("lodash");
 var uuid = require("uuid");
 
-var _default= { matchType: 1, predicates: [{ id: uuid.v4(), order: null, subject: { id: null, type: null }, operator: { id: null }, value: "" }] };
+var _default= { matchType: 1, predicates: [{ id: uuid.v4(),  subject: { id: null, type: null }, operator: { id: null }, value: "" }] };
 var _state;
-//var AppDispatcher = require('../dispatcher/AppDispatcher.js');
 var Store = new BaseStore({
     displayName: 'RuleStore',
     events: ['change'],
@@ -28,8 +27,9 @@ var Store = new BaseStore({
         _state = JSON.parse(localStorage.getItem("rule"));
         this.emit('change');
     },
-    onAddPredicate: function(data) {
-        _state.predicates.push(data);
+    onAddPredicate: function (data) {
+        var afterIndex = _state.predicates.indexOf(data.after);
+        _state.predicates.splice(afterIndex+1,0, data.predicate );
         this.emit('change');
 
     },
@@ -55,7 +55,7 @@ var Store = new BaseStore({
         var ruleToChange = _.find(_state.predicates, {
             id: newRule.id
         });
-        _.merge(ruleToChange, newRule);
+        _.assign(ruleToChange, newRule);
         this.emit('change');
 
     }

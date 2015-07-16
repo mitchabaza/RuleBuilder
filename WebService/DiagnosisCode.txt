@@ -1,0 +1,1484 @@
+127.0|Ascariasis
+790.7|Bacteremia (not septicemia)
+052.9|Chickenpox, NOS
+133.8|Chiggers
+078.5|CMV disease
+078.11|Condyloma acuminata
+111.9|Dermatomycosis, unspec.
+110.2|Dermatophytosis of hand
+110.0|Dermatophytosis of scalp/beard
+062.9|Encephalitis, mosquito, unspec.
+323.9|Encephalitis, myelitis, unspec.
+057.9|Exanthems, viral, unspec.
+057.0|Fifth disease
+007.1|Giardiasis
+098.0|Gonorrhea, acute, lower GU tract
+074.3|Hand, foot, mouth disease
+041.86|Helicobacter pylori
+070.1|Hepatitis A w/o coma
+070.30|Hepatitis B w/o coma, acute
+070.32|Hepatitis B w/o coma, chronic
+070.51|Hepatitis C w/o coma, acute
+070.54|Hepatitis C w/o coma, chronic
+070.9|Hepatitis, viral, NOS
+053.9|Herpes zoster, NOS
+054.9|Herpetic disease, uncomplicated
+054.2|Herpetic gingivostomatitis
+054.13|Herpetic infection, penis
+054.11|Herpetic vulvovaginitis
+115.00|Histoplasmosis, unspec.
+042|HIV disease
+V08|HIV positive, asymptomatic
+079.4|HPV
+075|Infectious mononucleosis
+487.1|Influenza w/ URI symptoms
+007.9|Intestinal protozoa, NOS
+088.81|Lyme disease
+078.0|Molluscum contagiosum
+112.2|Monilial balanitis
+112.0|Moniliasis, oral
+112.3|Moniliasis, skin/nails
+112.1|Moniliasis, vulva/vagina
+041.12|MRSA, unspec.
+072.9|Mumps, uncomplicated
+132.1|Pediculosis, body
+132.0|Pediculosis, head
+132.2|Pediculosis, pubic
+127.4|Pinworms
+038.2|Pneumococcal septicemia
+138|Polio, late effects
+795.51|Positive PPD
+079.6|Respiratory syncytial virus
+082.0|Rocky mountain spotted fever
+058.10|Roseola infantum, unspec.
+008.61|Rotavirus
+056.9|Rubella, uncomplicated
+003.0|Salmonella gastroenteritis
+135|Sarcoidosis
+133.0|Scabies
+034.1|Scarlet Fever
+038.40|Septicemia, gram-negative, unspec.
+038.9|Septicemia, NOS
+004.9|Shigellosis, unspec.
+005.0|Staphylococcal food poisoning
+034.0|Strep throat
+091.0|Syphilis, primary, genital
+130.9|Toxoplasmosis, unspec.
+131.01|Trichomonal vaginitis
+131.02|Trichomoniasis, urethritis
+011.90|Tuberculosis, pulmonary, NOS
+137.0|Tuberculosis, respiratory, late effects
+099.8|Venereal disease, other spec.
+079.99|Viral infection, unspec.
+078.11|Warts, condyloma
+078.12|Warts, plantar
+078.10|Warts, viral, unspec.
+211.3|Colon
+214.0|Lipoma, facial
+214.1|Lipoma, other skin, subcutaneous
+216.7|Skin neoplasm, lower limb
+216.4|Skin neoplasm, scalp/neck
+216.5|Skin neoplasm, skin of trunk
+216.6|Skin neoplasm, upper limb
+782.8|Skin, change in texture
+188.9|Bladder, unspec.
+174.9|Breast, female, unspec.
+153.9|Colon, unspec.
+184.9|Female genital, unspec., CIS excluded
+159.9|Gastrointestinal tract, NOS
+201.90|Hodgkin's, NOS
+208.90|Leukemia, unspec., w/o remission
+162.9|Lung, unspec.
+187.9|Male genital, unspec.
+199.1|Malignant lesion, unspec.
+185|Prostate
+165.9|Respiratory tract, NOS
+173.90|Skin, unspec.
+189.9|Urinary, unspec.
+250.01|Diabetes I, uncomplicated
+250.03|Diabetes I, uncontrolled
+250.23|Diabetes I, w/ hyperosmolarity, uncontrolled
+250.41|Diabetes I, w/ renal changes
+250.91|Diabetes I, w/ unspec. complications
+250.00|Diabetes II, uncomplicated
+250.90|Diabetes II, w/ unspec. complications
+250.62|Diabetes II/unspec., w/neurological manifestations, uncontrolled
+250.02|Diabetes II/unspec., w/o complications, uncontrolled
+250.13|Diabetic ketoacidosis, uncontrolled
+250.51|Diabetic retinopathy, background
+255.41|Glucocorticoid deficiency
+271.9|Glucose intolerance
+242.00|Goiter toxic, diffuse
+240.9|Goiter, unspec.
+241.9|Goiter, unspec. nontoxic nodular
+252.01|Hyperparathyroidism, primary
+588.81|Hyperparathyroidism, secondary, renal
+252.00|Hyperparathyroidism, unspec.
+242.90|Hyperthyroidism, NOS
+250.81|Hypoglycemia, diabetes I
+250.80|Hypoglycemia, DM, uncontrolled
+251.2|Hypoglycemia, nondiabetic, unspec.
+252.1|Hypoparathyroidism
+244.1|Hypothyroidism, post-ablative
+244.0|Hypothyroidism, post-surgical
+244.9|Hypothyroidism, unspec.
+255.42|Mineralocorticoid deficiency
+275.49|Pseudohypoparathyroidism
+259.0|Puberty, delayed
+259.1|Sexual precocity
+253.6|SIADH
+246.2|Thyroid cyst
+241.0|Thyroid nodule
+245.0|Thyroiditis, acute
+245.2|Thyroiditis, chronic, Hashimoto's
+245.1|Thyroiditis, subacute
+276.2|Acidosis
+276.3|Alkalosis
+277.30|Amyloidosis, unspec.
+266.2|B12 deficiency w/o anemia
+V85.51|BMI < 5th percentile, pediatric
+V85.54|BMI = 95th percentile, pediatric
+277.00|Cystic fibrosis
+276.51|Dehydration
+277.7|Dysmetabolic syndrome
+274.9|Gout, unspec.
+274.00|Gouty arthropathy, unspec.
+275.01|Hemochromatosis, hereditary
+277.4|Hyperbilirubinemia
+275.42|Hypercalcemia
+272.0|Hypercholesterolemia, pure
+276.7|Hyperkalemia
+272.2|Hyperlipidemia, mixed
+276.0|Hypernatremia
+272.1|Hypertriglyceridemia
+275.41|Hypocalcemia
+276.8|Hypokalemia
+276.1|Hyponatremia
+276.52|Hypovolemia
+275.2|Magnesium disorders
+278.03|Obesity hypoventilation syndrome
+278.01|Obesity, morbid
+278.00|Obesity, NOS
+276.69|Other fluid overload
+278.02|Overweight
+277.1|Porphyria
+588.0|Renal osteodystrophy
+288.9|Abnormal white blood cells, unspec.
+285.1|Anemia, acute blood loss
+283.0|Anemia, autoimmune hemolytic
+285.29|Anemia, chronic disease, other
+285.21|Anemia, chronic kidney disease
+285.22|Anemia, chronic neoplastic disease
+281.2|Anemia, folate deficiency
+280.1|Anemia, iron def., decreased intake
+280.9|Anemia, iron deficiency, unspec.
+280.0|Anemia, low iron, chronic blood loss
+285.9|Anemia, other, unspec.
+281.0|Anemia, pernicious
+286.9|Coagulation defects, other
+288.3|Eosinophilia
+286.0|Hemophilia
+287.9|Hemorrhagic conditions, unspec.
+289.81|Hypercoagulable state, primary
+287.31|Idiopathic thrombocytopenic purpura
+288.50|Leukocytopenia, unspec.
+288.60|Leukocytosis, unspec.
+289.1|Lymphadenitis, chronic
+288.00|Neutropenia, unspec.
+238.4|Polycythemia vera
+282.62|Sickle cell w/ crisis
+282.61|Sickle cell w/o crisis
+282.5|Sickle-cell trait
+289.84|Thrombocytopenia, heparin-induced
+287.30|Thrombocytopenia, primary
+287.49|Thrombocytopenia, secondary, other
+309.0|Adjustment disorder, depressive
+309.24|Adjustment reaction, anxious mood
+300.21|Agoraphobia w/ panic
+331.0|Alzheimer's
+307.1|Anorexia nervosa
+301.7|Antisocial personality disorder
+300.00|Anxiety state, unspec.
+314.01|Attention deficit, w/ hyperactivity
+314.00|Attention deficit, w/o hyperactivity
+299.00|Autism, current or active
+V62.82|Bereavement
+296.80|Bipolar disorder, unspec.
+296.52|Bipolar I, recently depressed, mod.
+296.42|Bipolar I, recently manic, mod.
+301.83|Borderline personality disorder
+306.8|Bruxism
+307.51|Bulimia nervosa
+312.9|Conduct disorder, unspec.
+300.11|Conversion disorder
+291.0|Delirium tremens
+293.0|Delirium, acute
+290.0|Dementia, senile, uncomplicated
+294.21|Dementia, unspec., w/ behavior disorder
+294.20|Dementia, unspec., w/o behavior disorder
+290.40|Dementia, vascular, uncomplicated
+296.22|Depression, major, single episode
+311|Depressive disorder, NOS
+298.0|Depressive psychosis
+302.76|Dyspareunia, psychogenic
+307.7|Encopresis
+307.6|Enuresis
+301.3|Explosive personality disorder
+307.0|Fluency disorder, adult
+300.02|Generalized anxiety disorder
+300.10|Hysteria, unspec.
+298.1|Hysterical psychosis, acute
+307.40|Insomnia, sleep disorder, unspec.
+307.41|Insomnia, transient
+317|Intellectual disabilities, mild
+319|Intellectual disabilities, unspec.
+315.9|Learning disability/develop. delay, NOS
+300.9|Neurosis, NOS
+300.4|Neurotic depression
+300.3|Obsessive-compulsive disorder
+307.80|Pain, psychogenic
+300.01|Panic disorder, no agoraphobia
+298.3|Paranoid reaction, acute
+301.9|Personality disorder, unspec.
+307.52|Pica
+309.81|Post-traumatic stress disorder
+302.75|Premature ejaculation
+302.71|Psychosexual dysf., inhibited desire
+302.70|Psychosexual dysf., unspec.
+298.9|Psychosis, unspec.
+295.72|Schizoaffective, chronic
+295.12|Schizophrenia, disorganized, chronic
+295.32|Schizophrenia, paranoid, chronic
+295.02|Schizophrenia, simple, chronic
+295.90|Schizophrenia, unspec.
+327.30|Sleep disorder, circadian rhythm, unspec.
+300.23|Social phobia
+300.81|Somatization disorder
+307.46|Somnambulism
+308.3|Stress, acute situational disturbance
+V62.84|Suicidal ideation
+305.00|Alcohol abuse, unspec.
+291.81|Alcohol withdrawal
+303.91|Alcoholism, chronic, continuous
+304.41|Amphetamine dependence, continuous
+305.22|Cannabis abuse, episodic
+304.31|Cannabis dependence, continuous
+305.62|Cocaine abuse, episodic
+304.21|Cocaine dependence, continuous
+V65.42|Counseling, substance use/abuse
+305.90|Drug abuse, unspec.
+292.0|Drug withdrawal
+292.11|Drug-induced paranoia
+305.52|Opioid abuse, episodic
+304.01|Opioid dependence, continuous
+305.1|Tobacco abuse
+993.0|Barotrauma, otitic
+380.4|Cerumen impaction
+V50.3|Ear piercing
+381.81|Eustachian tube dysfunction
+389.01|Hearing loss, conductive, external ear
+389.03|Hearing loss, conductive, middle ear
+389.20|Hearing loss, mixed, unspec.
+388.12|Hearing loss, noise-induced
+389.10|Hearing loss, sensorineural
+389.9|Hearing loss, unspec.
+386.35|Labyrinthitis, viral
+386.00|Ménière's disease, unspec.
+379.54|Nystagmus, inner ear disease
+388.71|Otalgia, otogenic
+388.72|Otalgia, referred
+380.10|Otitis externa, unspec.
+382.00|Otitis media, acute
+381.01|Otitis media, acute serous
+382.01|Otitis media, acute w/ rupture of TM
+381.10|Otitis media, chronic serous
+384.21|Perforation, central, tympanic mem.
+388.01|Presbycusis
+388.31|Tinnitus, subjective
+386.11|Vertigo, benign paroxysmal positional
+386.2|Vertigo, central
+379.41|Anisocoria
+373.00|Blepharitis, unspec.
+366.15|Cataract, cortical, senile
+366.9|Cataract, unspec.
+373.2|Chalazion
+372.05|Conjunctivitis, acute atopic
+372.06|Conjunctivitis, chemical, acute
+077.0|Conjunctivitis, chlamydia
+098.40|Conjunctivitis, gonococcal
+372.03|Conjunctivitis, mucopurulent
+372.30|Conjunctivitis, unspec.
+077.99|Conjunctivitis, viral, NOS
+918.1|Corneal abrasion
+371.24|Corneal edema, contact lenses
+370.00|Corneal ulcer, unspec.
+368.2|Diplopia
+375.15|Dry eye syndrome
+378.01|Esotropia, monocular
+940.9|Eye burn, unspec.
+378.9|Eye movement disorder, unspec.
+367.0|Farsightedness
+930.9|Foreign body, eye, external, unspec.
+365.22|Glaucoma, acute angle closure
+365.23|Glaucoma, chronic angle closure
+365.11|Glaucoma, primary open angle
+365.9|Glaucoma, unspec.
+364.41|Hyphema
+364.01|Iritis/cyclitis, acute, primary
+374.41|Lid lag
+362.51|Macular degeneration, nonexudative
+367.1|Nearsightedness
+377.01|Papilledema, increased intracranial pressure
+372.42|Pterygium, peripheral, progressive
+367.9|Refractive errors, unspec.
+361.01|Retinal detachment, partial, single defect
+362.01|Retinopathy, diabetic, background
+362.02|Retinopathy, diabetic, proliferative
+362.11|Retinopathy, hypertensive
+368.41|Scotoma, central
+373.11|Stye (hordeolum)
+372.72|Subconjunctival hemorrhage
+368.10|Visual disturbance, unspec.
+368.40|Visual field defect, unspec.
+368.12|Visual loss, transient
+351.0|Bell's palsy
+333.81|Blepharospasm
+354.0|Carpal tunnel
+437.3|Cerebral aneurysm, nonruptured
+434.91|Cerebral artery occlusion w/ infarction, unspec.
+348.5|Cerebral edema
+343.1|Cerebral palsy, hemiplegic, congenital
+343.0|Cerebral palsy, paraplegic, congenital
+343.2|Cerebral palsy, quadriplegic
+331.83|Cognitive impairment, mild
+572.2|Coma, hepatic
+850.12|Concussion, LOC 31 to 59 minutes
+850.11|Concussion, LOC less than 30 minutes
+850.0|Concussion, no loss of consciousness
+850.9|Concussion, unspec.
+438.9|CVA, late effect, unspec.
+768.70|Encephalopathy, hypoxic-ischemic
+348.31|Encephalopathy, metabolic
+348.30|Encephalopathy, unspec.
+345.00|Epilepsy, absence, w/o status
+345.40|Epilepsy, partial complex, w/o status
+345.3|Epilepsy, status
+345.10|Epilepsy, tonic-clonic, w/o status
+345.90|Epilepsy, unspec., not intractable
+357.0|Guillain-Barré
+339.12|Headache, chronic tension-type
+339.42|Headache, daily persistent, new
+339.3|Headache, drug-induced/rebound
+349.0|Headache, post-spinal puncture
+339.20|Headache, post-traumatic
+307.81|Headache, tension
+342.00|Hemiplegia, flaccid
+342.10|Hemiplegia, spastic
+432.9|Hemorrhage, intracranial, NOS
+331.5|Hydrocephalus, normal pressure
+331.4|Hydrocephalus, obstructive
+327.24|Hypoventilation, idiopathic, sleep related
+327.52|Leg cramps, nocturnal
+320.9|Meningitis, bacterial, NOS
+320.0|Meningitis, hemophilus
+322.9|Meningitis, unspec.
+036.0|Meningococcal meningitis
+346.40|Migraine, menstrual, not intractable
+346.90|Migraine, unspec., not intractable
+346.20|Migraine, variants, not intractable
+346.02|Migraine, w/ aura, not intractable
+346.12|Migraine, w/o aura, not intractable
+355.6|Morton's neuroma
+340|Multiple sclerosis
+359.1|Muscular dystrophy, hereditary
+358.01|Myasthenia gravis w/ exacerbation
+358.00|Myasthenia gravis w/o exacerbation
+347.00|Narcolepsy, w/o cataplexy
+729.2|Neuralgia, radiculitis
+250.61|Neuropathy, diabetic
+355.1|Neuropathy, lateral femoral cutaneous
+357.5|Neuropathy, poly-, alcoholic
+357.9|Neuropathy, unspec.
+332.0|Parkinsonism, primary
+353.6|Phantom limb
+310.2|Post-concussion syndrome
+053.19|Postherpetic neuralgia
+348.2|Pseudotumor cerebri
+337.22|Reflex sympathetic dyst., lower limb
+337.21|Reflex sympathetic dyst., upper limb
+333.94|Restless legs syndrome
+331.81|Reye's syndrome
+724.3|Sciatica
+327.23|Sleep apnea, obstructive
+430|Subarachnoid hemorrhage
+852.20|Subdural hemorrhage, closed
+353.0|Thoracic outlet syndrome
+307.20|Tic disorder, unspec.
+307.23|Tourette's disorder
+333.1|Tremor, essential/familial
+781.0|Tremor/spasms, NOS
+350.1|Trigeminal neuralgia
+427.31|Atrial fibrillation
+427.32|Atrial flutter
+426.11|Atrioventricular block, first degree
+426.12|Atrioventricular block, Mobitz II
+426.0|Atrioventricular block, third degree
+426.13|Atrioventricular block, Wenckebach's
+426.7|Atrioventricular excitation, anomalous
+426.3|Bundle branch block, left
+426.4|Bundle branch block, right
+426.82|Long QT syndrome
+427.60|Premature beats, unspec.
+427.81|Sick sinus syndrome
+426.6|Sinoatrial heart block
+427.89|Sinus bradycardia, NOS
+427.0|Tachycardia, paroxysmal SVT
+427.41|Ventricular fibrillation
+413.9|Angina pectoris, NOS
+411.1|Angina, unstable
+414.04|CAD, artery bypass graft
+414.02|CAD, autologous vein bypass graft
+414.01|CAD, native coronary artery
+427.5|Cardiac arrest
+861.01|Cardiac contusion
+425.11|Cardiomyopathy, hypertrophic obstr.
+414.8|Chronic ischemic heart disease, other
+414.9|Chronic ischemic heart disease, unspec.
+421.0|Endocarditis, acute, bacterial
+428.40|Heart failure, combined, unspec.
+428.0|Heart failure, congestive, unspec.
+428.32|Heart failure, diastolic, chronic
+428.30|Heart failure, diastolic, unspec.
+428.21|Heart failure, systolic, acute
+428.22|Heart failure, systolic, chronic
+428.20|Heart failure, systolic, unspec.
+424.1|Heart valve, aortic, not rheum.
+424.0|Heart valve, mitral, not rheum.
+424.3|Heart valve, pulmonary, not rheum.
+424.2|Heart valve, tricuspid, not rheum.
+446.1|Kawasaki disease
+410.10|MI, acute, anterior, NOS
+410.00|MI, acute, anterolateral
+410.20|MI, acute, inferolateral
+410.30|MI, acute, inferoposterior
+410.40|MI, acute, other inferior wall, NOS
+410.50|MI, acute, other lateral wall
+410.60|MI, acute, true posterior
+410.90|MI, NOS (to 8 weeks)
+410.70|MI, NSTEMI (to 8 weeks)
+412|MI, old
+422.91|Myocarditis, idiopathic
+420.91|Pericarditis, acute, nonspecific
+413.1|Prinzmetal angina
+428.1|Pulmonary edema, acute
+416.9|Pulmonary heart disease, chronic, unspec.
+398.90|Rheumatic heart disease, unspec.
+441.4|Aortic aneurysm, abdominal, intact
+441.3|Aortic aneurysm, abdominal, ruptured
+441.9|Aortic aneurysm, unspec.
+441.01|Aortic dissection, thoracic
+446.5|Arteritis, giant cell, temporal
+440.9|Atherosclerosis, NOS (not heart/brain)
+337.01|Carotid sinus syndrome
+453.42|Deep vein thrombosis, distal
+453.41|Deep vein thrombosis, proximal
+453.40|Deep vein thrombosis, unspec.
+796.2|Elevated BP w/o hypertension
+456.0|Esophageal varices w/ bleeding
+456.1|Esophageal varices w/o bleeding
+401.1|Hypertension, benign
+401.0|Hypertension, malignant
+405.11|Hypertension, renovascular, benign
+405.01|Hypertension, renovascular, malignant
+401.9|Hypertension, unspec.
+458.21|Hypotension of hemodialysis
+458.29|Hypotension, iatrogenic
+458.0|Hypotension, orthostatic
+440.21|Intermittent claudication
+443.9|Peripheral vascular disease, unspec.
+451.19|Phlebitis, deep, lower extrem., other
+451.0|Phlebitis, superficial, lower extrem.
+451.82|Phlebitis, superficial, upper extrem.
+446.0|Polyarteritis nodosa
+457.0|Postmastectomy lymphedema
+415.19|Pulmonary embolism, not iatrogenic
+443.0|Raynaud's syndrome
+451.9|Thrombophlebitis, unspec.
+435.9|Transient ischemic attack, unspec.
+454.1|Varicose veins w/ inflammation
+454.0|Varicose veins w/ ulcer
+454.2|Varicose veins w/ ulcer, inflammation
+454.9|Varicose veins, asymptomatic
+453.9|Venous embolism, unspec. site
+459.81|Venous insufficiency, unspec.
+446.4|Wegener's granulomatosis
+501|Asbestosis
+493.82|Asthma, cough variant
+493.81|Asthma, exercise induced
+493.00|Asthma, ext. w/o status asthmaticus
+493.01|Asthma, ext., w/ status asthmaticus
+493.02|Asthma, extrinsic, acute exacerbation
+493.11|Asthma, int. w/ status asthmaticus
+493.10|Asthma, intrinsic w/o status asthmaticus
+493.12|Asthma, intrinsic, acute exacerbation
+493.90|Asthma, unspec.
+493.92|Asthma, unspec. w/ acute exacerbation
+518.0|Atelectasis
+466.11|Bronchiolitis, acute, due to RSV
+466.0|Bronchitis, acute
+491.9|Bronchitis, chronic, unspec.
+491.21|Bronchitis, chronic, w/ exacerbation
+491.20|Bronchitis, chronic, w/o exacerbation
+506.0|Bronchitis/pneumonitis due to fumes
+519.11|Bronchospasm, acute
+861.21|Contusion, lung
+496|COPD, NOS
+492.8|Emphysema
+483.0|Mycoplasma pneumoniae
+511.9|Pleural effusion, NOS
+511.0|Pleurisy, NOS
+481|Pneumococcal pneumonia
+507.0|Pneumonia, aspiration
+482.9|Pneumonia, bacterial, unspec.
+480.3|Pneumonia, SARS coronavirus
+486|Pneumonia, unspec.
+997.31|Pneumonia, ventilator-associated
+480.9|Pneumonia, viral, unspec.
+512.81|Pneumothorax, spontaneous, primary
+860.0|Pneumothorax, traumatic, closed
+515|Pulmonary fibrosis, postinflammatory
+518.81|Respiratory failure, acute
+460|Common cold
+464.4|Croup
+470|Deviated nasal septum
+464.30|Epiglottitis, acute
+464.00|Laryngitis, acute, no obstruction
+476.0|Laryngitis, chronic
+475|Peritonsillar abscess
+462|Pharyngitis, acute
+471.0|Polyp, nasal cavity
+477.9|Rhinitis, allergic, cause unspec.
+477.2|Rhinitis, allergic, due to animal dander
+477.0|Rhinitis, allergic, due to pollen
+472.0|Rhinitis, chronic
+461.1|Sinusitis, acute, frontal
+461.0|Sinusitis, acute, maxillary
+461.9|Sinusitis, acute, NOS
+473.1|Sinusitis, chronic, frontal
+473.0|Sinusitis, chronic, maxillary
+473.9|Sinusitis, chronic, NOS
+474.9|Tonsil/adenoid disease, chronic, unspec.
+474.11|Tonsillar hypertrophy alone
+463|Tonsillitis, acute
+465.9|Upper respiratory infection, acute, NOS
+530.0|Achalasia/cardiospasm
+568.0|Adhesions, peritoneal
+565.0|Anal fissure, nontraumatic
+564.6|Anal spasm
+569.85|Angiodysplasia, intestine w/ hemorrhage
+528.2|Aphthous ulcer
+540.0|Appendicitis, acute w/ gen. peritonitis
+540.9|Appendicitis, unspec.
+530.85|Barrett's esophagitis
+576.1|Cholangitis
+575.0|Cholecystitis, acute
+574.61|Cholelithiasis, GB/bile duct w/ obstruction & acute cholecystitis
+574.90|Cholelithiasis, GB/bile duct, uncomp.
+574.20|Cholelithiasis, NOS
+571.2|Cirrhosis, liver, alcoholic
+571.5|Cirrhosis, NOS
+564.00|Constipation, unspec.
+555.9|Crohn's disease, NOS
+555.1|Crohn's, large intestine
+555.0|Crohn's, small intestine
+521.00|Dental caries, unspec.
+562.11|Diverticulitis of colon, NOS
+562.10|Diverticulosis, colon
+562.12|Diverticulosis, colon w/ hemorrhage
+532.00|Duodenal ulcer, acute w/ hemorrhage
+532.30|Duodenal ulcer, acute w/o bleeding
+532.70|Duodenal ulcer, chronic w/o bleeding
+536.8|Dyspepsia
+525.40|Edentulism
+530.3|Esophageal stricture/stenosis
+530.10|Esophagitis, unspec.
+571.0|Fatty liver, alcoholic
+937|Foreign body, anus/rectum
+935.1|Foreign body, esophagus
+935.2|Foreign body, stomach
+575.9|Gallbladder disease, unspec.
+531.00|Gastric ulcer, acute w/ hemorrhage
+531.30|Gastric ulcer, acute, uncomplicated
+531.70|Gastric ulcer, chronic, uncomplicated
+535.31|Gastritis, alcoholic, w/ hemorrhage
+535.30|Gastritis, alcoholic, w/o hemorrhage
+535.50|Gastritis, unspec., w/o hemorrhage
+009.1|Gastroenteritis, infectious
+558.9|Gastroenteritis, noninfectious, unspec.
+008.8|Gastroenteritis, viral
+530.81|Gastroesophageal reflux, no esophagitis
+536.3|Gastroparesis
+523.10|Gingivitis, chronic, plaque induced
+529.0|Glossitis
+864.01|Hematoma, liver, not open into cavity
+455.4|Hemorrhoids, external, thrombosed
+455.3|Hemorrhoids, external, uncomp.
+455.0|Hemorrhoids, internal, uncomp.
+455.2|Hemorrhoids, internal, w/ comp.
+455.6|Hemorrhoids, NOS
+570|Hepatic failure, acute
+571.40|Hepatitis, chronic, unspec.
+573.3|Hepatitis, toxic
+572.4|Hepatorenal syndrome
+553.00|Hernia, femoral, unilateral
+553.3|Hernia, hiatal, noncongenital
+550.90|Hernia, inguinal, NOS
+553.9|Hernia, other, NOS
+553.1|Hernia, umbilical
+553.21|Hernia, ventral, incisional
+553.20|Hernia, ventral, unspec.
+560.1|Ileus
+560.30|Impaction of intestine
+569.61|Infection, colostomy/enterostomy
+560.9|Intestinal obstruction, unspec.
+564.1|Irritable bowel syndrome
+557.9|Ischemic bowel disease, unspec.
+528.6|Leukoplakia, oral mucosa
+571.9|Liver disease, chronic, unspec.
+579.9|Malabsorption, NOS
+569.62|Mechanical complication of ostomy
+577.2|Pancreatic cyst, pseudocyst
+577.0|Pancreatitis, acute
+577.1|Pancreatitis, chronic
+527.2|Parotitis
+533.00|Peptic ulcer, acute w/ hemorrhage, w/o obstruction
+533.30|Peptic ulcer, acute, uncomplicated
+533.70|Peptic ulcer, chronic, uncomplicated
+523.40|Periodontitis, chronic, unspec.
+564.2|Post-gastric-surgery syndromes
+564.4|Postoperative functional disorders
+306.4|Psychogenic GI symptoms
+528.00|Stomatitis, mucositis, unspec.
+873.63|Tooth, broken, due to trauma
+525.9|Toothache
+556.9|Ulcerative colitis, unspec.
+557.0|Vascular insufficiency, acute, intestine
+611.72|Breast lump
+610.2|Fibroadenosis
+610.1|Fibrocystic disease
+611.6|Galactorrhea
+611.1|Gynecomastia
+611.0|Mastitis, NOS
+675.94|Mastitis, postpartum, unspec.
+611.71|Mastodynia
+626.0|Amenorrhea
+627.1|Bleeding, postmenopausal
+V07.4|Hormone replacement therapy, postmenopausal
+627.9|Menopausal disorders, unspec.
+V49.81|Menopausal state, asymptomatic
+627.2|Menopausal state, symptomatic
+626.2|Menstruation, excessive/frequent
+625.3|Menstruation, painful
+626.6|Metrorrhagia
+625.2|Mittelschmerz
+625.4|Premenstrual tension syndrome
+627.3|Vaginitis, postmenopausal atrophic
+614.6|Adhesions, pelvic peritoneal
+624.1|Atrophy, vulva
+616.3|Bartholin abscess
+616.2|Bartholin cyst
+622.7|Cervical polyp, NOS
+616.0|Cervicitis
+620.1|Corpus luteum cyst
+620.0|Cyst of ovary, follicular
+618.01|Cystocele, midline
+618.9|Cystocele/rectocele/prolapse, unspec.
+625.0|Dyspareunia
+621.30|Endometrial hyperplasia, unspec.
+617.9|Endometriosis, unspec.
+218.9|Fibroid uterus (leiomyoma), unspec.
+628.9|Infertility, female, unspec.
+623.5|Leukorrhea, NOS
+256.39|Ovarian failure, other
+256.2|Ovarian failure, postablative
+256.4|Ovaries, polycystic
+614.9|Pelvic inflammatory disease, unspec.
+625.9|Pelvic pain, unspec. female disease
+618.1|Prolapse, uterine
+618.04|Rectocele
+614.0|Salpingitis, oophoritis, acute
+622.4|Stenosis, cervix
+618.03|Urethrocele
+621.2|Uterus, hypertrophy
+625.1|Vaginismus
+616.10|Vaginitis/vulvitis, unspec.
+625.70|Vulvodynia
+608.3|Atrophy of testis
+607.1|Balanitis
+600.01|BPH/LUTS w/ obstruction
+600.00|BPH/LUTS w/o obstruction
+608.82|Hematospermia
+603.9|Hydrocele, unspec.
+607.84|Impotence, organic
+302.72|Impotence, psychosexual dysfunction
+606.9|Infertility, male, unspec.
+604.90|Orchitis/epididymitis, unspec.
+605|Phimosis
+607.3|Priapism
+601.0|Prostatitis, acute
+601.1|Prostatitis, chronic
+601.9|Prostatitis, NOS
+790.93|PSA, elevated
+608.1|Spermatocele
+257.2|Testicular hypofunction
+608.20|Torsion of testis, unspec.
+099.40|Urethritis, nongonococcal, unspec.
+456.4|Varicocele
+596.4|Atony of bladder
+596.51|Bladder hypertonicity
+596.0|Bladder neck obstruction
+596.54|Bladder, neurogenic, NOS
+592.0|Calculus, kidney
+592.1|Calculus, ureter
+592.9|Calculus, urinary, unspec.
+593.2|Cyst, kidney, acquired
+595.0|Cystitis, acute
+595.1|Cystitis, interstitial, chronic
+595.82|Cystitis, irradiation
+580.9|Glomerulonephritis, acute, unspec.
+582.9|Glomerulonephritis, chronic, unspec.
+599.71|Hematuria, gross
+599.72|Hematuria, microscopic
+599.70|Hematuria, unspec.
+591|Hydronephrosis
+625.6|Incontinence, stress, female
+585.6|Kidney disease, chronic, end stage
+585.1|Kidney disease, chronic, stage I
+585.5|Kidney disease, chronic, stage V
+585.9|Kidney disease, chronic, unspec.
+581.9|Nephrotic syndrome, unspec.
+593.6|Proteinuria, benign postural
+590.10|Pyelonephritis, acute, w/o necrosis
+584.5|Renal failure, acute w/ tubular necrosis
+584.9|Renal failure, acute, unspec.
+593.9|Renal insufficiency, acute
+598.1|Stricture, urethral, traumatic
+598.00|Stricture, urethral, unspec. infection
+597.81|Urethral syndrome, non-VD, NOS
+599.60|Urinary obstruction, unspec.
+599.0|Urinary tract infection, unspec./pyuria
+593.73|Vesicoureteral reflux w/ nephropathy
+593.70|Vesicoureteral reflux, unspec.
+659.70|Abnormality in fetal heart tracing
+635.92|Abortion, induced, w/o complications, complete
+632|Abortion, missed
+634.92|Abortion, spontaneous, complete, uncomplicated
+634.91|Abortion, spontaneous, incomplete, uncomplicated
+640.03|Abortion, threatened, antepartum
+641.20|Abruptio placentae, unspec.
+675.14|Abscess of breast, postpartum
+641.90|Bleeding in pregnancy, unspec.
+669.90|Complicated delivery/labor, unspec.
+663.10|Cord around neck, unspec.
+663.30|Cord entanglement, other, unspec.
+642.60|Eclampsia, unspec.
+633.90|Ectopic pregnancy, no IUP, unspec.
+633.10|Ectopic pregnancy, tubal, no IUP
+670.14|Endometritis, postpartum
+676.24|Engorgement of breasts, postpartum
+656.31|Fetal distress, delivered
+655.73|Fetal movement, decreased, antepart.
+669.51|Forceps/vacuum delivery, delivered
+648.83|Gestational diabetes, antepartum
+642.33|Gestational hypertension, antepartum
+666.04|Hemorrhage, 3rd stage, postpartum
+666.14|Hemorrhage, immediate PP, other
+630|Hydatidiform mole
+643.03|Hyperemesis gravidarum, mild
+643.13|Hyperemesis gravidarum, w/ metabolic disturbance, antepartum
+659.10|Induction of labor, failed
+647.93|Infections, complicating pregnancy
+661.30|Labor, precipitate, unspec.
+662.10|Labor, prolonged, unspec.
+665.30|Laceration, cervix, unspec.
+664.04|Laceration, perineal, 1st deg., PP
+664.14|Laceration, perineal, 2nd deg., PP
+664.24|Laceration, perineal, 3rd deg., PP
+664.34|Laceration, perineal, 4th deg., PP
+656.61|Large-for-dates, delivered
+650|Normal delivery
+660.11|Obstruction, bony pelvis, delivered
+660.01|Obstruction, malposition, delivered
+658.03|Oligohydramnios, antepartum
+641.10|Placenta previa, w/ bleeding, unspec.
+641.00|Placenta previa, w/o bleeding, unspec.
+657.03|Polyhydramnios, antepartum
+645.13|Post-term pregnancy, antepartum
+V24.2|Postpartum follow-up, routine
+642.40|Pre-eclampsia, unspec.
+V23.41|Pregnancy, h/o pre-term labor
+646.90|Pregnancy, other complications, unspec.
+V22.2|Pregnant state, incidental
+644.21|Premature labor, delivered
+644.03|Premature labor, threat., undelivered
+658.10|Premature rupture of mem., unspec.
+V23.9|Prenatal care, high risk, unspec.
+V22.0|Prenatal care, normal, first pregnancy
+V22.1|Prenatal care, normal, other pregnancy
+656.11|Rh incompatibility, delivered
+660.41|Shoulder dystocia, delivered
+656.53|Small-for-dates, antepartum
+649.50|Spotting during pregnancy, unspec.
+671.44|Thrombophlebitis, postpartum
+660.61|Trial of labor, failed, delivered
+651.00|Twins, unspec.
+646.63|Urinary tract infection, antepartum
+661.00|Uterine inertia, primary, unspec.
+661.10|Uterine inertia, secondary, unspec.
+649.60|Uterine size/date discrepancy
+643.90|Vomiting of pregnancy, unspec.
+566|Abscess, perianal
+706.1|Acne, other
+702.0|Actinic keratosis
+704.00|Alopecia, unspec.
+680.5|Boil, buttock
+680.0|Boil, face
+680.1|Boil, neck
+680.2|Boil, trunk
+376.01|Cellulitis, orbital
+682.5|Cellulitis/abscess, buttock
+682.0|Cellulitis/abscess, face
+682.7|Cellulitis/abscess, foot
+682.4|Cellulitis/abscess, hand
+682.6|Cellulitis/abscess, leg
+682.1|Cellulitis/abscess, neck
+682.9|Cellulitis/abscess, unspec.
+681.9|Cellulitis/abscess, unspec. digit
+692.6|Contact dermatitis, due to plants
+692.9|Contact dermatitis, NOS
+700|Corn/callus
+690.11|Cradle cap
+692.81|Dermatitis, due to cosmetics
+692.83|Dermatitis, due to metals
+110.9|Dermatophytosis of unspecified site, ringworm, NOS
+691.0|Diaper rash
+691.8|Eczema, atopic dermatitis
+695.10|Erythema multiforme, unspec.
+695.2|Erythema nodosum
+681.01|Felon
+705.83|Hidradenitis suppurativa
+704.1|Hirsutism
+684|Impetigo
+703.0|Ingrown nail
+701.4|Keloid scar
+697.0|Lichen planus
+683|Lymphadenitis, acute
+448.1|Nevus, vascular, non-neoplastic
+110.1|Onychomycosis
+709.9|Other skin disease, unspec.
+681.02|Paronychia, finger
+681.11|Paronychia, toe
+685.0|Pilonidal cyst w/ abscess
+685.1|Pilonidal cyst, unspec.
+696.3|Pityriasis rosea
+707.05|Pressure ulcer, buttock
+707.07|Pressure ulcer, heel
+707.04|Pressure ulcer, hip
+707.09|Pressure ulcer, other
+705.1|Prickly heat, heat rash
+698.0|Pruritus ani
+698.9|Pruritus, NOS
+306.3|Pruritus, psychogenic
+696.1|Psoriasis, NOS
+695.3|Rosacea
+709.2|Scar
+706.2|Sebaceous cyst
+690.10|Seborrheic dermatitis, NOS
+702.19|Seborrheic keratosis, NOS
+692.72|Solar radiation dermatitis
+695.13|Stevens-Johnson syndrome
+692.71|Sunburn
+110.3|Tinea cruris
+110.4|Tinea pedis
+111.0|Tinea versicolor
+707.13|Ulcer, skin, ankle
+707.15|Ulcer, skin, chronic, other part of foot
+707.9|Ulcer, skin, chronic, unspec.
+707.12|Ulcer, skin, lower leg
+707.10|Ulcer, unspec. of lower limb
+708.0|Urticaria, allergic
+708.1|Urticaria, idiopathic
+709.01|Vitiligo
+727.89|Abscess, bursa
+736.9|Acquired deformity, limb, unspec.
+713.0|Arthropathy, endocrine disorders
+713.1|Arthropathy, GI conditions
+711.59|Arthropathy, other viral, multiple
+716.10|Arthropathy, traumatic, unspec.
+716.90|Arthropathy, unspec.
+733.21|Bone cyst, solitary
+710.9|Connective tissue disease, unspec.
+710.3|Dermatomyositis
+710.5|Eosinophilia myalgia syndrome
+729.1|Fibromyalgia/myositis, unspec.
+729.6|Foreign body in soft tissue
+728.85|Muscle spasm
+728.87|Muscle weakness, generalized
+728.2|Muscular wasting, atrophy
+728.12|Myositis ossificans, traumatic
+715.09|Osteoarthrosis, gen., multiple sites
+715.90|Osteoarthrosis, unspec.
+732.7|Osteochondritis dissecans
+730.00|Osteomyelitis, acute, unspec.
+730.10|Osteomyelitis, chronic, unspec.
+733.01|Osteoporosis, senile
+733.00|Osteoporosis, unspec.
+714.30|Polyarticular juvenile rheumatoid arthritis
+725|Polymyalgia rheumatica
+710.4|Polymyositis
+728.88|Rhabdomyolysis
+714.0|Rheumatoid arthritis (not JRA)
+710.2|Sjögren's disease
+727.00|Synovitis/tenosynovitis, unspec.
+710.0|Systemic lupus erythematosus
+524.62|Temporomandibular arthralgia
+736.79|Acquired deformity, ankle/foot, other, foot drop
+733.42|Aseptic necrosis, head/neck of femur
+727.51|Baker's cyst
+727.1|Bunion
+726.73|Calcaneal spur
+717.7|Chondromalacia of patella
+717.1|Derangement, knee, anterior horn, medial meniscus
+717.9|Derangement, knee, internal, unspec.
+717.42|Derangement, knee, lat. meniscus
+736.72|Equinus deformity, foot
+734|Flat foot
+735.2|Hallux rigidus
+735.0|Hallux valgus
+735.4|Hammer toe, other
+728.89|Iliotibial band syndrome
+719.06|Knee effusion
+726.70|Metatarsalgia, NOS
+715.17|Osteoarthrosis, ankle/foot
+715.15|Osteoarthrosis, hip
+715.16|Osteoarthrosis, knee
+730.07|Osteomyelitis, foot, acute
+730.06|Osteomyelitis, leg, acute
+729.5|Pain in limb
+726.61|Pes anserinus tendinitis
+728.71|Plantar fasciitis
+726.65|Prepatellar bursitis
+727.67|Rupture, Achilles tendon
+726.71|Tendinitis, Achilles
+726.64|Tendinitis, patellar
+726.72|Tendinitis, tibialis
+727.06|Tenosynovitis, foot/ankle
+720.0|Ankylosing spondylitis
+724.4|Back pain w/ radiation, unspec.
+722.71|Cervical disc disorder w/ myelopathy
+722.0|Cervical disc displacement
+723.9|Cervical disorder, NOS
+953.0|Cervical root injury
+721.0|Cervical spondylosis w/o myelopathy
+721.1|Cervical spondylosis, w/ myelopathy
+724.79|Coccygodynia
+733.6|Costochondritis
+722.4|Degenerative disc disease, cervical
+722.52|Degenerative disc disease, lumbar
+722.51|Degenerative disc disease, thoracic
+728.84|Diastasis recti
+737.10|Kyphosis (acquired)
+:737.9|Kyphosis/scoliosis| unspec.
+:722.73|Lumbar disc disorder w/ myelopathy
+:722.10|Lumbar disc displace. w/o myelopathy
+:721.42|Lumbar spondylosis w/ myelopathy
+:721.3|Lumbosacral spondylosis w/o myelopathy
+:721.90|Osteoarthritis of spine| NOS
+:722.81|Postlaminectomy syndrome| cervical
+722.83|Postlaminectomy syndrome, lumbar
+720.2|Sacroiliitis
+737.30|Scoliosis
+739.1|Somatic dysfunction, cervical region
+739.3|Somatic dysfunction, lumbar region
+739.5|Somatic dysfunction, pelvic region
+739.8|Somatic dysfunction, rib cage
+739.2|Somatic dysfunction, thoracic region
+724.02|Spinal stenosis, lumbar w/o claudication
+738.4|Spondylolisthesis, spondylolysis
+721.2|Thoracic spondylosis w/o myelopathy
+723.5|Torticollis, unspec.
+726.0|Adhesive capsulitis, shoulder
+726.12|Bicipital tenosynovitis
+736.21|Boutonniere deformity
+727.04|de Quervain's disease
+728.6|Dupuytren's contracture
+727.42|Ganglion, tendon sheath
+727.43|Ganglion, unspec.
+726.32|Lateral epicondylitis
+736.1|Mallet finger
+726.31|Medial epicondylitis
+726.33|Olecranon bursitis
+715.14|Osteoarthrosis, hand
+715.11|Osteoarthrosis, shoulder
+730.04|Osteomyelitis, hand, acute
+726.10|Rotator cuff/shoulder synd., unspec.
+727.62|Rupture, biceps tendon
+736.22|Swan-neck deformity
+727.05|Tenosynovitis, hand/wrist
+727.03|Trigger finger, acquired
+747.81|Arteriovenous malformation of brain
+747.60|Arteriovenous malformation, unspec.
+744.02|Atresia, auditory canal (external)
+745.5|Atrial septal defect
+757.32|Birthmarks
+744.41|Branchial cleft sinus/fistula
+749.20|Cleft palate w/ cleft lip
+749.00|Cleft palate, unspec.
+746.9|Congenital heart anomaly, NOS
+754.30|Dislocation of hip, unilateral
+758.0|Down's syndrome
+751.3|Hirschsprung's disease
+742.3|Hydrocephalus
+752.61|Hypospadias
+751.2|Imperforate anus
+752.42|Imperforate hymen
+755.9|Limb anomaly, unspec.
+759.82|Marfan syndrome
+751.0|Meckel's diverticulum
+742.1|Microcephalus
+756.51|Osteogenesis imperfecta
+754.81|Pectus excavatum
+753.12|Polycystic kidney, unspec.
+755.01|Polydactyly, fingers
+750.5|Pyloric stenosis
+757.6|Specified congenital anomalies of breast
+756.17|Spina bifida occulta
+741.93|Spina bifida, lumbar, uncomplicated
+754.51|Talipes equinovarus
+743.65|Tear duct, blocked
+750.0|Tongue tie
+754.1|Torticollis, sternomastoid
+752.51|Undescended testis
+745.4|Ventricular septal defect
+799.82|Apparent life-threatening event, infant
+770.10|Aspiration, neonatal/fetal, unspec.
+768.5|Birth asphyxia, severe
+768.9|Birth asphyxia, unspec.
+767.2|Birth trauma, fracture of clavicle
+767.9|Birth trauma, unspec.
+778.7|Breast engorgement in newborn
+789.7|Colic
+779.5|Drug withdrawal in newborn
+766.0|Exceptionally large baby, 4,500g +
+760.77|Exposure to anticonvulsants
+760.75|Exposure to cocaine, perinatal
+760.72|Exposure to narcotics, perinatal
+779.31|Feeding problem, newborn
+760.71|Fetal alcohol syndrome
+768.3|Fetal distress, during labor, in infant
+773.1|Hemolysis, ABO isoimmunization
+773.0|Hemolysis, RH isoimmunization
+775.4|Hypocalcemia
+775.6|Hypoglycemia, neonatal
+770.88|Hypoxemia, newborn, NOS
+775.0|Infant of diabetic mother syndrome
+774.39|Jaundice, newborn, breast milk
+774.2|Jaundice, newborn, prematurity
+774.30|Jaundice, newborn, unspec.
+763.84|Meconium passage during delivery
+777.50|Necrotizing enterocolitis, newborn, unspec.
+761.1|Newborn affected by PROM
+764.00|Newborn, SGA, weight unspec.
+771.6|Ophthalmia neonatorum, NOS
+766.21|Post-term infant
+765.10|Preterm infant, weight unspec.
+766.22|Prolonged gestation of infant
+769|Respiratory distress syndrome
+771.81|Sepsis, neonatal
+778.9|Skin/temperature problem
+798.0|Sudden infant death syndrome
+777.3|Swallowed maternal blood
+V30.01|Well newborn, hospital birth, c-section
+V30.00|Well newborn, hospital birth, vaginal
+789.06|Abdominal pain, epigastric
+789.04|Abdominal pain, LLQ
+789.03|Abdominal pain, RLQ
+789.01|Abdominal pain, RUQ
+789.00|Abdominal pain/colic, unspec.
+789.34|Abdominal/pelvic mass, LLQ
+789.33|Abdominal/pelvic mass, RLQ
+789.30|Abdominal/pelvic mass, unspec.
+790.6|Abnormal blood chemistry, other
+790.92|Abnormal coagulation profile
+794.31|Abnormal electrocardiogram
+790.21|Abnormal fasting glucose
+790.22|Abnormal glucose tolerance test
+790.29|Abnormal glucose, other
+795.05|Abnormal HPV, positive, cervical high risk
+793.19|Abnormal imaging, lung, other
+793.11|Abnormal imaging, lung, solitary pulmonary nodule
+783.21|Abnormal loss of weight
+795.01|Abnormal Pap, ASC-US
+795.02|Abnormal Pap, ASC, possible HGSIL
+233.1|Abnormal Pap, cervix uteri (CIS)
+622.10|Abnormal Pap, dysplasia, cervix, unspec.
+795.00|Abnormal Pap, glandular, NOS
+795.04|Abnormal Pap, HGSIL
+795.03|Abnormal Pap, LGSIL
+795.09|Abnormal Pap, other and HPV
+781.92|Abnormal posture
+790.0|Abnormal red blood cell
+790.4|Abnormal transaminase/LDH
+783.1|Abnormal weight gain
+780.97|Altered mental status
+995.0|Anaphylactic reaction, other
+783.0|Anorexia
+784.3|Aphasia
+719.40|Arthralgia, unspec.
+789.51|Ascites, malignant
+789.59|Ascites, other
+569.3|Bleeding, rectal
+578.1|Blood in stool, melena
+792.1|Blood in stool, occult
+785.9|Bruit
+799.4|Cachexia
+786.50|Chest pain, unspec.
+780.71|Chronic fatigue syndrome
+781.5|Clubbing of fingers
+780.01|Coma, nondiabetic/nonhepatic
+786.2|Cough
+780.92|Crying, infant, excessive
+782.5|Cyanosis
+783.42|Delayed milestones
+787.91|Diarrhea, NOS
+781.1|Disturbances, smell and taste
+780.4|Dizziness/vertigo, NOS
+784.51|Dysarthria
+784.61|Dyslexia
+787.20|Dysphagia, unspec.
+788.1|Dysuria
+780.94|Early satiety
+782.3|Edema, localized, NOS
+719.00|Effusion/swelling of joint, unspec.
+790.1|Elevated sedimentation rate
+799.24|Emotional lability
+788.36|Enuresis, nocturnal
+784.7|Epistaxis
+781.94|Facial weakness
+783.7|Failure to thrive, adult
+783.41|Failure to thrive, child
+780.79|Fatigue and malaise, other
+300.5|Fatigue, psychogenic
+787.60|Fecal incontinence, full
+783.3|Feeding problem, infant/elderly
+780.60|Fever, unspec.
+781.2|Gait disturbance
+787.3|Gas/bloating
+791.5|Glycosuria
+780.1|Hallucinations
+784.0|Headache, unspec.
+787.1|Heartburn
+578.0|Hematemesis
+786.30|Hemoptysis, unspecified
+789.1|Hepatomegaly
+786.8|Hiccups
+784.42|Hoarseness
+306.1|Hyperventilation
+799.02|Hypoxemia
+788.91|Incontinence, functional
+788.31|Incontinence, urge
+788.30|Incontinence/enuresis, NOS
+782.4|Jaundice
+783.40|Lack of normal physiological development, unspec.
+799.81|Libido, decreased
+782.2|Localized swelling/mass, superficial
+781.91|Loss of height
+785.6|Lymph nodes, enlarged
+793.80|Mammogram, abnormal, unspec.
+780.93|Memory loss
+780.02|Mental status changes
+780.58|Movement disorder, sleep related
+785.2|Murmur of heart, undiagnosed
+787.01|Nausea w/ vomiting
+787.02|Nausea, alone
+781.8|Neurologic neglect syndrome
+788.43|Nocturia
+338.0|Pain syndrome, central
+338.4|Pain syndrome, chronic
+338.11|Pain, acute, due to trauma
+338.21|Pain, chronic, due to trauma
+338.29|Pain, chronic, other
+780.96|Pain, generalized
+719.45|Pain, hip
+719.46|Pain, knee
+724.2|Pain, low back
+723.1|Pain, neck
+338.3|Pain, neoplasm related
+719.41|Pain, shoulder
+785.1|Palpitations
+782.7|Petechiae
+786.52|Pleuritic pain
+783.5|Polydipsia
+783.6|Polyphagia
+788.42|Polyuria
+784.91|Postnasal drip
+786.51|Precordial pain
+791.0|Proteinuria, nonpostural, nonobstetric
+782.1|Rash, nonvesicular, unspec.
+799.1|Respiratory arrest
+780.39|Seizures, convulsions, other
+780.31|Seizures, simple, febrile, unspec.
+780.09|Semicoma, stupor
+782.0|Sensory disturbance skin
+785.52|Septic shock
+785.50|Shock, unspec.
+783.43|Short stature
+786.05|Shortness of breath
+782.9|Skin, other symptoms
+780.50|Sleep disturbance, unspec.
+789.2|Splenomegaly
+786.1|Stridor
+780.8|Sweating, excessive
+780.2|Syncope
+785.0|Tachycardia
+786.06|Tachypnea
+783.22|Underweight
+795.08|Unsatisfact. cervical cytology smear
+788.41|Urinary frequency
+788.64|Urinary hesitancy
+788.63|Urinary urgency
+787.03|Vomiting, alone
+719.7|Walking difficulty
+786.07|Wheezing
+831.01|Dislocation: shoulder, closed, anterior
+836.1|Knee meniscus injury, lateral
+836.0|Knee meniscus injury, medial
+832.2|Nursemaid’s elbow
+847.2|Sprain: lumbar
+845.01|Sprain/strain: ankle, deltoid lig.
+845.00|Sprain/strain: ankle, unspec.
+845.10|Sprain/strain: foot, unspec.
+842.10|Sprain/strain: hand, unspec.
+844.2|Sprain/strain: knee, cruciate lig.
+844.0|Sprain/strain: knee, lateral collat. lig.
+844.1|Sprain/strain: knee, medial collat. lig.
+844.9|Sprain/strain: knee/leg, unspec.
+847.0|Sprain/strain: neck, unspec.
+848.3|Sprain/strain: ribs
+846.1|Sprain/strain: sacroiliac lig.
+840.4|Sprain/strain: shoulder, rotator cuff
+840.9|Sprain/strain: shoulder/upper arm, unspec.
+840.6|Sprain/strain: supraspinatus
+847.9|Sprain/strain: vertebral, unspec.
+842.00|Sprain/strain: wrist, unspec.
+824.2|Ankle, closed, lateral malleolus
+824.8|Ankle, closed, unspec.
+825.0|Calcaneus, closed
+814.01|Carpal, closed, scaphoid
+814.00|Carpal, closed, unspec.
+810.03|Clavicle, closed, acromial
+810.02|Clavicle, closed, shaft
+810.00|Clavicle, closed, unspec.
+813.41|Colles' fracture
+805.2|Dorsal, thoracic, closed
+820.21|Femur, intertrochanteric section
+820.02|Femur, midcervical, closed
+820.8|Femur/hip, closed, unspec.
+823.81|Fibula, closed, unspec.
+823.01|Fibula, upper end, closed
+825.20|Foot, closed, unspec. (not toes)
+813.80|Forearm, closed, unspec.
+733.94|Fracture, stress: metatarsals
+733.95|Fracture, stress: other bone
+733.93|Fracture, stress: tibia or fibula
+V67.4|Healed fracture, follow-up exam
+812.02|Humerus, closed, anatomical neck
+812.20|Humerus, closed, unspec.
+812.09|Humerus, closed, upper end, unspec.
+805.4|Lumbar, closed
+802.20|Mandible, closed, unspec.
+815.04|Metacarpal, closed, neck
+815.03|Metacarpal, closed, shaft
+815.00|Metacarpal, closed, unspec.
+825.25|Metatarsal bone, closed
+733.82|Nonunion of fracture
+802.0|Nose, closed
+802.6|Orbital floor, closed
+808.8|Pelvic, closed, unspec.
+816.00|Phalanges, hand, closed, unspec.
+816.02|Phalanges, hand, distal, closed
+816.01|Phalanges, hand, mid./prox., closed
+813.21|Radius, shaft, closed
+807.01|Ribs, closed, one rib
+807.02|Ribs, closed, two ribs
+807.00|Ribs, closed, unspec.
+803.00|Skull, closed, unspec.
+823.80|Tibia, closed, unspec.
+823.82|Tibia/fibula, closed, unspec.
+826.0|Toe, closed
+813.22|Ulna, shaft, closed
+805.8|Vertebral, closed, unspec.
+919.0|Abrasion, unspec.
+995.81|Adult physical abuse
+995.3|Allergy, unspec.
+995.1|Angioneurotic edema
+949.0|Burn, degree unspec.
+948.00|Burns, < 10% body surface
+995.50|Child abuse, unspec.
+958.92|Compartment syndr., traumatic (LE)
+958.91|Compartment syndr., traumatic (UE)
+996.57|Complication, due to insulin pump
+921.0|Contusion, black eye
+924.11|Contusion, knee
+924.4|Contusion, multiple sites, lower limb
+924.8|Contusion, multiple sites, not classified
+924.9|Contusion, unspec.
+923.11|Contusion, upper limb, elbow
+927.3|Crushing injury, fingers
+928.3|Crushing injury, toe
+994.1|Drowning, nonfatal submersion
+994.4|Exhaustion due to exposure
+931|Foreign body, ear
+932|Foreign body, nose
+919.6|Foreign body, skin, superficial, unspec.
+991.3|Frostbite, unspec./other
+E922.9|Gunshot wound, NOS
+959.01|Head injury, NOS
+992.3|Heat exhaustion
+992.0|Heat stroke
+991.6|Hypothermia
+919.4|Insect bite
+908.9|Late effects of injury, unspec.
+995.20|Medication, adverse effects, unspec.
+994.6|Motion sickness
+873.41|Open wound, cheek, w/o complication
+873.40|Open wound, face, w/o complication
+883.0|Open wound, fingers, w/o complication
+892.0|Open wound, foot, w/o complication
+881.00|Open wound, forearm, uncomp.
+873.42|Open wound, forehead, w/o comp.
+882.0|Open wound, hand, w/o complication
+879.8|Open wound, head/neck/trunk, unspec.
+873.43|Open wound, lip, w/o complication
+894.0|Open wound, lower limb, unspec.
+873.0|Open wound, scalp, w/o complication
+873.64|Open wound, tongue, w/o complication
+884.0|Open wound, upper limb, unspec.
+998.32|Operative wound, disruption
+959.9|Other trauma, unspec.
+986|Poisoning, carbon monoxide
+977.9|Poisoning, medicine overdose, unspec.
+989.9|Poisoning, nonmedicinal substance
+965.01|Poisoning, overdose, heroin
+965.09|Poisoning, overdose, other opiates
+965.1|Poisoning, overdose, salicylates
+996.41|Prosthetic joint, loosened
+V71.5|Rape
+995.55|Shaken infant syndrome
+999.80|Transfusion reaction, unspec.
+V68.9|Administrative, other, unspec.
+V65.40|Advice/health instruction, NOS
+V15.06|Allergy to insects, arachnids
+V15.07|Allergy to latex
+V15.02|Allergy to milk products
+V58.61|Anticoagulant therapy, long term
+V45.86|Bariatric surgery status
+V61.49|Caring for family/household member
+V13.22|Cervical dysplasia, past history
+V58.63|Chronic use antiplatelet/thrombotic
+V50.2|Circumcision, routine
+V72.32|Confirm norm. Pap after initial abn.
+V25.09|Contraception advice
+V25.9|Contraception management, unspec.
+V25.40|Contraception surveillance, unspec.
+V25.5|Contraception, Norplant insertion
+V25.01|Contraception, oral
+V25.02|Contraception, other (diaphragm, etc.)
+V61.10|Counseling for marital and partner problems, unspec.
+V61.20|Counseling for parent/child problems, unspec.
+V68.01|Disability exam
+V49.86|Do not resuscitate status
+V58.30|Dressing change, nonsurgical
+V62.3|Educational problem
+V25.03|Emergency contraception visit
+V86.0|Estrogen receptor positive status
+V87.43|Estrogen therapy, personal history
+V15.85|Exposure to hazardous body fluids
+V01.9|Exposure to infectious disease, unspec.
+V01.79|Exposure to other viruses
+V01.71|Exposure to varicella
+V01.6|Exposure to venereal disease
+V15.88|Falls: risk for, history of
+V61.09|Family disruption, other
+V17.5|Family history of asthma
+V16.3|Family history of breast cancer
+V17.3|Family history of cardiac disease
+V18.0|Family history of diabetes mellitus
+V16.0|Family history of GI tract cancer
+V16.1|Family history of lung cancer
+V17.81|Family history of osteoporosis
+V61.9|Family problem, other, unspec.
+V67.00|Follow-up exam, surgery, unspec.
+V67.9|Follow-up exam, unspec.
+V68.09|Form, other
+V54.12|Fracture lower arm, healing, aftercare
+V54.17|Fracture vertebrae, healing, aftercare
+V18.9|Genetic disease carrier
+V84.89|Genetic susceptibility to disease, other
+V72.31|Gynecological exam
+V58.69|High-risk medication, long-term use
+V60.0|Housing problem/homeless
+V06.8|Immunization, combination, other
+V06.1|Immunization, DTP
+V06.3|Immunization, DTP/polio
+V05.3|Immunization, hepatitis
+V03.81|Immunization, HIB
+V04.81|Immunization, influenza
+V06.4|Immunization, MMR
+V04.89|Immunization, other viral illness
+V05.8|Immunization, other, specified
+V03.82|Immunization, pneumovax
+V04.0|Immunization, polio
+V04.82|Immunization, RSV
+V03.89|Immunization, single bacterial disease
+V04.1|Immunization, smallpox
+V06.5|Immunization, Td
+V03.1|Immunization, typhoid
+V05.4|Immunization, varicella
+V62.5|Legal problem
+V58.66|Long-term use of aspirin
+V58.64|Long-term use of NSAIDs
+V58.65|Long-term use of steroids
+V65.2|Malingering
+V25.04|Natural fam. plan., contracept. counsel
+V26.41|Natural fam. plan., procreative counsel
+V62.89|Other psychological or physical stress, NEC
+V66.7|Palliative care
+V65.11|Pediatric pre-birth visit, expectant parent(s)
+V65.19|Person consulting on behalf of another
+V11.4|Personal history of combat and operational stress reaction
+V12.55|Personal history of pulmonary embolism
+V72.81|Pre-op exam, cardiac
+V72.84|Pre-op exam, unspec.
+V72.41|Pregnancy test/exam, negative
+V72.42|Pregnancy test/exam, positive
+V72.40|Pregnancy test/exam, unconfirmed
+V61.3|Problem w/ aged parents or in-laws
+V68.81|Referral w/o exam
+V90.10|Retained metal fragments, unspec.
+V82.5|Screening for lead/heavy metals
+V76.10|Screening, breast cancer
+V76.9|Screening, cancer, unspec.
+V81.0|Screening, cardiac disease
+V76.51|Screening, colon cancer
+V77.1|Screening, diabetes
+V77.91|Screening, lipoid disorders
+V76.44|Screening, PSA
+V62.4|Social maladjustment
+V25.2|Sterilization
+V58.32|Suture removal
+V58.83|Therapeutic drug monitoring
+V15.83|Underimmunization status
+V70.0|Well adult exam
+V20.2|Well child check
+V65.5|Worried well

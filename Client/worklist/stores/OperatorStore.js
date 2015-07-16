@@ -31,8 +31,9 @@ var Store = new BaseStore({
                 operators: [
                     { name: "Is Greater Than", id: 16 },
                     { name: "Is Less Than", id: 17 },
-                    { name: "Is Between", id: 117 },
-                    { name: "Is Equal To", id: 31 }
+                    { name: "Is Equal To", id: 31 },
+                    { name: "Is In The Range", id: 897897 },
+                    { name: "Is Not In The Range", id: 8978971 }
                 ]
             },
            
@@ -45,15 +46,26 @@ var Store = new BaseStore({
             },
             {
                 type: DataTypes.DATE,
+
                 operators: [
-                    { name: "Is", id: 1216 },
-                    { name: "Is After", id: 2217 },
-                    { name: "Is Before", id: 21216 },
-                    { name: "Is In The Range", id: 121216 },
-                    { name: "Is In The Last", id: 751212 }
-
-
+                    { name: "Is Any", id: 1216 },
+                    { name: "Is Today", id: 2217 },
+                    { name: "Is Not Today", id: 21216 },
+                    { name: "Is In The Last", id: 654564 },
+                    { name: "Is Not In The Last", id: 6545641}
+   
                 ]
+                //operators: [
+                //    { name: "Is", id: 1216 },
+                //    { name: "Is After", id: 2217 },
+                //    { name: "Is Before", id: 21216 },
+                //    { name: "Is In The Range", id: 121216 },
+                //    { name: "Is Today", id: 151 },
+                //    { name: "Is Not Today", id: 213151 },
+                //    { name: "Is In The Last", id: 751212 }
+
+
+                //]
             }
         ];
     }

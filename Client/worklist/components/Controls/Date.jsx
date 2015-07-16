@@ -1,6 +1,6 @@
 ﻿var React = require("React");  
 var DatePicker=require('react-bootstrap-datetimepicker')
-var Select=require("./../Select.jsx")
+var Select=require("./Select.jsx")
  var moment = require("moment")
 var app = React.createClass( {
  	 

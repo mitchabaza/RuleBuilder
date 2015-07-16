@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
-using WebService.Service;
+using Sentri7.Services.Service;
 
-namespace WebService
+namespace Sentri7.Services
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
@@ -28,7 +24,17 @@ namespace WebService
         private void AutofacInit()
         {
             var container = new ContainerBuilder();
-            container.RegisterAssemblyTypes(typeof (FakePatientService).Assembly).AsImplementedInterfaces().AsSelf().InstancePerDependency();
+            container.Register(
+                s => new DiagnosisService(HostingEnvironment.MapPath(@"~\DiagnosisCode.txt")))
+                .AsSelf()
+                .AsImplementedInterfaces()
+                .SingleInstance();
+            container.Register(
+                s => new ServiceAreaService(HostingEnvironment.MapPath(@"~\ServiceArea.txt")))
+                .AsSelf()
+                .AsImplementedInterfaces()
+                .SingleInstance();
+            container.RegisterControllers(typeof(DiagnosisService).Assembly).AsSelf().InstancePerDependency();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container.Build()));
          
              

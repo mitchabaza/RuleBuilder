@@ -13,18 +13,23 @@
   "jest": {
     "scriptPreprocessor": "<rootDir>/app/js/__tests__/preprocessor.js",
     "unmockedModulePathPatterns": [
-      "react"
+      "react",
+      "fs",
+      "path"
     ]
   },
   "devDependencies": {
     "age-calculator": "0.0.3",
     "babelify": "^6.0.2",
     "birth-by-age-at-date": "^1.0.3",
+    "brfs": "^1.4.0",
     "browserify": "^7.0.3",
+    "browserify-fs": "^1.0.0",
     "colors": "^1.0.3",
     "flux": "^2.0.1",
     "flux-store-base": "^0.2.0",
     "gulp": "^3.8.10",
+    "gulp-brfs": "^0.1.0",
     "gulp-browserify": "^0.5.0",
     "gulp-concat": "^2.4.2",
     "gulp-uglify": "^1.1.0",
@@ -32,6 +37,7 @@
     "jest-cli": "^0.4.0",
     "lodash": "^3.0.0",
     "moment": "^2.9.0",
+    "path": "^0.11.14",
     "react": "^0.13.3",
     "react-bootstrap": "^0.23.7",
     "react-bootstrap-datetimepicker": "0.0.18",
