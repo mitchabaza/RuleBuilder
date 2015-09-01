@@ -33,7 +33,7 @@ var app = React.createClass( {
 	getDefaultProps: function() {
     return {
       autoload: false,
-	  inputLength:3
+	  inputLength:2
     }},
     render: function() { 
 	 

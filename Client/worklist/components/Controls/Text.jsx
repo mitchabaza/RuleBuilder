@@ -17,7 +17,7 @@ var app = React.createClass( {
     render: function() { 
 	 
 
-		return <Input ref="textInput" onChange={this.props.onChange.bind(null, this)} type='text' value={this.props.value} />
+		return <Input ref="textInput" onBlur={this.props.onChange.bind(null, this)} type='text' defaultValue={this.props.value} />
 	    
 	 
     } 

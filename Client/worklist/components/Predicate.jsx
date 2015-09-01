@@ -101,8 +101,7 @@ var app = React.createClass({
 				<div className="predicate-button-container">
 					<button type="button" onClick={this.handleAddRule} disabled={this.props.preventNewPredicates} ><Glyphicon glyph='plus' /></button>
 					<button type="button" style={{visibility:this.props.hideDelete?"hidden":"visible"}} onClick={this.handleDeleteRule} ><Glyphicon glyph='minus' /></button> 
-					<button type="button" onClick={this.handleAddSub} ><Glyphicon glyph='hand-down' /></button> 
-			
+				 
 				</div>
 				
 				 </div>

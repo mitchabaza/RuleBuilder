@@ -45,6 +45,7 @@
     "react-select": "^0.5.2",
     "react-tools": "^0.13.3",
     "reactify": "^1.1.1",
+    "stackjs": "^0.1.0",
     "superagent": "^0.21.0",
     "to-space-case": "^0.1.3",
     "underscore": "^1.7.0",

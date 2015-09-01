@@ -8,15 +8,16 @@ var Select= require("./Controls/Select.jsx")
 var UpdateRule = require("../Actions/UpdateRuleActionCreator.js");
 var Bootstrap=require('react-bootstrap') 
 var ClearRule = require("../Actions/ClearRulesActionCreator.js");
+var Undo =require("../Actions/Undo.js");
 var app = React.createClass({
 	mixins: [createStoreMixin([SubjectStore,RuleStore])] ,
- 	onHandleSaveClick:function(){
+ 	handleSaveClick:function(){
 		SaveRule.fire();
 	},
 	getInitialState:function(){
 		return {rule:{matchType:1, predicates:null}}
 	},
-	onHandleClearClick:function(){
+	handleClearClick:function(){
 		ClearRule.fire();
 	},
     handleOnSelect:function(id){
@@ -27,6 +28,9 @@ var app = React.createClass({
 	},
 	handleMatchTypeClick:function() {
 	    UpdateRule.fire({ id: this.refs.matchType.getValue(), text: this.refs.matchType.getText() });
+	},
+	handleUndo:function(){
+		Undo.fire();
 	},
 	render: function() { 
 		var preds = this.state.rule!=null?this.state.rule.predicates:null;
@@ -48,7 +52,7 @@ var app = React.createClass({
 	
 	return (
 		<div className="container" >
-
+						
 			<h3>Create new rule...</h3>
 				<div className="alert alert-warning" style={{display:preventNewPredicates?'block':'none'}} role="alert">
 					<b>Warning!</b>&nbsp;&nbsp;  Your rule is getting too complicated, you dumbass!!
@@ -56,9 +60,9 @@ var app = React.createClass({
 		
 				<div className="panel panel-default">
 					<div className="panel-heading clearfix">
-						<Select  defaultOption={false} ref="matchType"  selected={this.state.rule.matchType} onChange={this.handleMatchTypeClick} options={[{id:1,name:"all"},{id:2,name:"any"}]}/>of the following are true		
-						<Bootstrap.Button className="pull-right" onClick={this.onHandleClearClick} type="button">Clear</Bootstrap.Button>
-						<Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.onHandleSaveClick} type="button">Save</Bootstrap.Button>
+						<Select  defaultOption={false} ref="matchType"  selected={this.state.rule.matchType.id} onChange={this.handleMatchTypeClick} options={[{id:1,name:"all"},{id:2,name:"any"}]}/>of the following are true		
+						<Bootstrap.Button className="pull-right" onClick={this.handleClearClick} type="button">Clear</Bootstrap.Button>
+						<Bootstrap.Button className="pull-right" bsStyle='primary' onClick={this.handleSaveClick} type="button">Save</Bootstrap.Button>
 					</div>
 					<div className="panel-body">
 						{predicates}				
