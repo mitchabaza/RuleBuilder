@@ -8,10 +8,11 @@
             border:none;
             background:#fff;
         }
-button {
+
+  .predicate-button-container>button {
     margin-right: 15px;
 
-}
+ }
 
 .form-group {
      display: inline-block;
@@ -48,7 +49,7 @@ button {
 .Select {
   position: relative;
     display: inline-block;
-    min-width: 255px;
+  width:100%
 }
 .predicate-button-container {
 
@@ -66,7 +67,7 @@ button {
   color: #333333;
   cursor: default;
   outline: none;
-  padding: 8px 52px 8px 10px;
+  padding: 4px 52px 8px 10px;
   transition: all 200ms ease;
 }
 .Select-control:hover {

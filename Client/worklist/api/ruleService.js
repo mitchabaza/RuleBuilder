@@ -2,10 +2,10 @@
 
 var Superagent = require("superagent");
 
-var ServiceClient = {
+var RuleServiceClient = {
     
     
-    listFieldValues: function (criteria) {
+    executeRule: function (rule) {
         var actions = require("../actions/formActions.js");
         
         Superagent

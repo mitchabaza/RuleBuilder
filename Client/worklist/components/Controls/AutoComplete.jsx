@@ -7,10 +7,10 @@ var Superagent = require("superagent");
 var app = React.createClass( {
  	 
 	 handleOnChange:function(data,selectedOptions){
-	  var proxy = {
+	  var closure = {
 			getValue:function(){return selectedOptions}
 		 };
-		this.props.onChange(proxy)
+		this.props.onChange(closure)
 	 },
 	focus:function(){
 	
@@ -33,12 +33,18 @@ var app = React.createClass( {
 	getDefaultProps: function() {
     return {
       autoload: false,
-	  inputLength:2
+	  inputLength:2,
+	  multi:true
     }},
-    render: function() { 
-	 
-    	return <div style= { {"display":"inline-block", "width":"50%","paddingBottom":"5px" }} >
-		<Autocomplete autoload={this.props.autoload} ref="autocomplete" value={this.props.value||null} onChange ={this.handleOnChange} multi={true} asyncOptions={this.getOptions}/></div>
+    render: function() {
+
+	 var async =null;
+		if (this.props.remoteDataSource){
+
+			async= this.getOptions;
+		}
+    	return <div style= { {"display":"inline-block", "width":"100%","paddingBottom":"5px" }} >
+		<Autocomplete autoload={this.props.autoload} ref="autocomplete" value={this.props.value||null} options={this.props.options} onChange ={this.handleOnChange} multi={this.props.multi} asyncOptions={async}  /></div>
 	 
     } 
 

@@ -20,7 +20,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
     <StartWebBrowser>true</StartWebBrowser>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Compile Include="worklist\actions\ChangePredicateActionCreator.js" />
     <Compile Include="worklist\actions\DeletePredicateActionCreator.js" />
     <Compile Include="worklist\actions\AddPredicateActionCreator.js" />
-    <Compile Include="worklist\api\formService.js" />
+    <Compile Include="worklist\api\ruleService.js" />
     <Compile Include="worklist\api\patientService.js" />
     <Compile Include="worklist\bootstrap.js" />
     <Compile Include="worklist\components\RightHandExpressions\ExpressionHandlers\Diagnosis.jsx" />
@@ -55,7 +55,7 @@
     <Compile Include="worklist\shims\es5-sham.min.js" />
     <Compile Include="worklist\shims\es5-shim.min.js" />
     <Compile Include="worklist\stores\BaseStore.js" />
-    <Compile Include="worklist\stores\PageStore.js" />
+    <Compile Include="worklist\stores\MessageStore.js" />
     <Compile Include="worklist\stores\RuleStore.js" />
     <Compile Include="worklist\stores\OperatorStore.js" />
     <Compile Include="worklist\stores\SubjectStore.js" />

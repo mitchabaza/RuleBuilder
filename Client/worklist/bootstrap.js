@@ -4,5 +4,5 @@ var LoadRule= require("./actions/LoadRuleActionCreator.js");
 
 React.render(<Rule/> ,document.getElementById('body'));
 
-setTimeout(LoadRule.fire(), 4000);
+setTimeout(LoadRule.fire(), 2000);
 //apiFactory.getTasks();

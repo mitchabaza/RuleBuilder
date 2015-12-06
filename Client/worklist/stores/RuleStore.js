@@ -5,35 +5,26 @@ var _ = require("lodash");
 var uuid = require("uuid");
 var Stack = require('stackjs');
 var stack = new Stack();
- 
-var _default= {  matchType: 1, predicates: [{ id: uuid.v4(),  subject: { id: null, type: null }, operator: { id: null }, value: "" }] };
+var _default= {  matchType: 1, newPredicateId:null, predicates: [{ id: uuid.v4(),  subject: { id: null, type: null }, operator: { id: null }, value: "" }] };
 var _state;
 
-function storeUndo() {
-    var newState = _.clone(_state, true);
-    
-    if (stack.size() > 0) {
-        var oldState = stack.peek();
-        var areEqual = _.eq(oldState, newState);  
-        if (areEqual) {
-            return;
-        }
-        
-    }    
-    stack.push(newState);
-}
+
 var Store = new BaseStore({
     displayName: 'RuleStore',
-    events: ['change'],
+    events: ['change','saved'],
     getState: function() {
         return _state;
+    },
+    _change:function(){
+        localStorage.setItem("rule", JSON.stringify(_state));
+        this.emit("change")
     },
     onDeletePredicate: function(idToDelete) {
        
         _.remove(_state.predicates, {
             id: idToDelete
         });
-        this.emit('change');
+       this._change();
     },
     onLoadData: function() {
 
@@ -41,47 +32,44 @@ var Store = new BaseStore({
             localStorage.setItem("rule", JSON.stringify(_default));
         }
         _state = JSON.parse(localStorage.getItem("rule"));
-        this.emit('change');
+        this._change();
     },
     onAddPredicate: function (data) {
-        storeUndo();
+
         var afterIndex = _state.predicates.indexOf(data.after);
         _state.predicates.splice(afterIndex+1,0, data.predicate );
-        this.emit('change');
+        this._change();
 
     },
     onClearRule: function() {
-        storeUndo();
         localStorage.removeItem("rule");
         this.onLoadData();
 
     },
     onSaveRule: function() {
         localStorage.setItem("rule", JSON.stringify(_state));
+        this._change();
 
     },
     onUndo: function () {
         
         if (stack.size() >0) {
             _state = stack.pop();
-            this.emit('change');
-        }
+            this._change(); }
 
     },
     onUpdateRule: function (payload) {
-        storeUndo();
-        _state.matchType = payload;
-        this.emit('change');
+         _state.matchType = payload;
+        this._change();
 
     },
     onChangePredicate: function(newRule) {
-        storeUndo();
 
         var ruleToChange = _.find(_state.predicates, {
             id: newRule.id
         });
         _.assign(ruleToChange, newRule);
-        this.emit('change');
+        this._change();
 
     }
 

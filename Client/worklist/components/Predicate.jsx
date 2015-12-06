@@ -10,6 +10,8 @@ var Input=require('react-bootstrap').Input
 var OperatorStore= require("../Stores/OperatorStore.js") 
 var RightHandExpressionFactory= require("./RightHandExpressions/Factory.js") 
 var DataTypes = require('../Constants/SubjectConstants.js');
+
+var AutoComplete = require("./Controls/AutoComplete.jsx");
 var _ =require("lodash");
 
 var app = React.createClass({
@@ -29,11 +31,11 @@ var app = React.createClass({
 			ChangeRule.fire(ruleChange)
 		},
 		componentDidUpdate :function(){
-			if (!this.props.active){
+		 	if (!this.props.active){
 				return
 			}
 			if (this.state.clicked=='operator'){
-				if (this.refs.RightHandExpression!=null && this.props.active==true){
+				if (this.refs.RightHandExpression!=null){
 					this.refs.RightHandExpression.focus()
 				}
 			}
@@ -41,6 +43,7 @@ var app = React.createClass({
 				this.refs.operator.focus();
 			}
 			else if(this.state.clicked=='value'){
+
 			}
 			else{
 				this.refs.subject.focus()
@@ -56,12 +59,14 @@ var app = React.createClass({
 			this.props.onPredicateSelect(this.props.predicate.id);
 			ChangeRule.fire(ruleChange)
 		},
-		handleSubjectChange:function(){
+		handleSubjectChange:function(value){
 			this.setState({clicked:'subject'})
+			var subjectVal=value.getValue().length==1?value.getValue()[0].value:null;
 			var ruleChange=_.clone(this.props.predicate )
 			var subject = _.find(this.props.subjects, function(s){
-				return s.id==this.refs.subject.getValue()
+				return s.id==subjectVal
 			},this)
+
 			ruleChange.value=null
 		    ruleChange.subject=subject;
 			this.props.onPredicateSelect(this.props.predicate.id);
@@ -71,6 +76,7 @@ var app = React.createClass({
 		handleDeleteRule:function(){
 			DeleteRule.fire(this.props.predicate.id)
 		},
+
 		getOperatorList:function(){
 			var self=this;
 	
@@ -84,23 +90,31 @@ var app = React.createClass({
 			};
 			return item.operators;
 			},
-		render: function() { 
-		 	
-		 	var operatorList = this.getOperatorList()	 
+	_createSubjectsForDropDown:function(){
+		return _.map(this.props.subjects, function(s){
+			return  {value:s.id, label:s.name}
+		})
+	},
+		render: function() {
+
+			var opts = this._createSubjectsForDropDown()
+		 	var operatorList = this.getOperatorList()
+			var subjectValue= {value:this.props.predicate.subject.id, label:this.props.predicate.subject.name}
 			var  rightHandExpression= RightHandExpressionFactory.create(this.props.predicate, this.handleValueChange)
 			return (
 	
-			 <div className="vertical">
-				<div className="vertical conditional">{ this.props.matchType }</div>
-				
-				
-				 <Select ref="subject" onChange={this.handleSubjectChange} options={this.props.subjects} selected={this.props.predicate.subject.id} />
-				 <Select ref="operator" options={operatorList} onChange={this.handleOperatorChange} selected={this.props.predicate.operator.id} />
-				 {rightHandExpression}
-				 <div className="pull-right">
-				<div className="predicate-button-container">
+			 <div className="vertical row" >
+
+				<div className="vertical conditional col-md-1" >{ this.props.matchType }</div>
+
+
+				<div  className="col-md-3"> <AutoComplete ref="newSubject" options={opts} value={subjectValue} multi={false} onChange={ this.handleSubjectChange}/></div>
+				 <div  className="col-md-3">	 <Select ref="operator" options={operatorList} onChange={this.handleOperatorChange} selected={this.props.predicate.operator.id} /></div>
+				 <div  className="col-md-4">		 {rightHandExpression}</div>
+				<div className="pull-right">
+				<div className="col-md-1 predicate-button-container">
 					<button type="button" onClick={this.handleAddRule} disabled={this.props.preventNewPredicates} ><Glyphicon glyph='plus' /></button>
-					<button type="button" style={{visibility:this.props.hideDelete?"hidden":"visible"}} onClick={this.handleDeleteRule} ><Glyphicon glyph='minus' /></button> 
+					<button type="button" style={{visibility:this.props.hideDelete?"hidden":"visible"}} onClick={this.handleDeleteRule} ><Glyphicon glyph='minus' /></button>
 				 
 				</div>
 				

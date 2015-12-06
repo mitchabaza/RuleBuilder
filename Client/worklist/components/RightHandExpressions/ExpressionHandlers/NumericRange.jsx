@@ -6,6 +6,7 @@ module.exports = {
     
 
     canHandle: function(rule) {
+        //gross!
         if (rule.operator.id ==  897897 || rule.operator.id ==  8978971) {
             return true;
         }
