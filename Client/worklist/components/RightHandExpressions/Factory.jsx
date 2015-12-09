@@ -30,6 +30,9 @@ var Factory = {
             else if (rule.subject.type === DataTypes.DATE ) {
                 component = Text;
             }
+            if (component==null){
+                return null;
+            }
             return React.createElement(component, { ref: "RightHandExpression", value: rule.value , onChange: onChange });
 
         }

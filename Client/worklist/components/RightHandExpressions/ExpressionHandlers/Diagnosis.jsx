@@ -5,7 +5,7 @@ module.exports = {
     
     
     canHandle: function (rule) {
-        if (rule.subject.id == 1) {
+        if (rule.subject.id == 1 && (rule.operator.id == 317|| rule.operator.id == 216 )) {
             return true;
         }
     },

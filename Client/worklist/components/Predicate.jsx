@@ -8,7 +8,7 @@ var Glyphicon = require('react-bootstrap').Glyphicon
 var createStoreMixin = require('../mixins/StoreListenerMixin')
 var Input=require('react-bootstrap').Input 
 var OperatorStore= require("../Stores/OperatorStore.js") 
-var RightHandExpressionFactory= require("./RightHandExpressions/Factory.js") 
+var RightHandExpressionFactory= require("./RightHandExpressions/Factory.jsx")
 var DataTypes = require('../Constants/SubjectConstants.js');
 
 var AutoComplete = require("./Controls/AutoComplete.jsx");

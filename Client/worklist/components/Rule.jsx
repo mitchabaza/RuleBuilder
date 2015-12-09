@@ -18,9 +18,7 @@ var App = React.createClass({
 	getInitialState:function(){
 		return {loading:false,rule:{matchType:1, predicates:null}}
 	},
-	handleRunClick:function(){
 
-	},
 	handleClearClick:function(){
 		ClearRule.fire();
 	},
@@ -34,9 +32,12 @@ var App = React.createClass({
 	    UpdateRule.fire({ id: this.refs.matchType.getValue(), text: this.refs.matchType.getText() });
 	},
 	handleRunClick: function(){
-		this.setState({load1ing:true})
+		this.setState({loading:true})
+		var self=this;
+		setInterval("this.setState({loading:true})",2000);
+
 	},
-	render: function() { 
+	render: function() {
 
 	var showBanner = this.state.message!=null;
 		var preds = this.state.rule!=null?this.state.rule.predicates:null;
@@ -58,7 +59,6 @@ var App = React.createClass({
 	})
 		}
 
-console.log(this.state.loading)
 	return (
 
 		<div className="container" >

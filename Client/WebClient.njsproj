@@ -46,7 +46,7 @@
     <Compile Include="worklist\bootstrap.js" />
     <Compile Include="worklist\components\RightHandExpressions\ExpressionHandlers\Diagnosis.jsx" />
     <Compile Include="worklist\components\RightHandExpressions\index.js" />
-    <Compile Include="worklist\components\RightHandExpressions\Factory.js" />
+    <Compile Include="worklist\components\RightHandExpressions\Factory.jsx" />
     <Compile Include="worklist\constants\RuleActionConstants.js" />
     <Compile Include="worklist\constants\SubjectConstants.js" />
     <Compile Include="worklist\dispatcher\appDispatcher.js" />

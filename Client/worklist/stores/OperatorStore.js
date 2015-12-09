@@ -23,6 +23,7 @@ var Store = new BaseStore({
                 type: DataTypes.DROP,
                 operators: [
                     { name: "Is In ", id: 216 },
+                    { name: "Is Not Empty ", id: 2161 },
                     { name: "Is Not In", id: 317 }
                 ]
             },
