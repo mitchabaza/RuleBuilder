@@ -3,8 +3,12 @@
 I thought it would be a fun, if not instructive, exercise to apply flux/react concepts to the domain of a rule builder.  
 
 
-The backend is ASP.NET MVC +  RavenDB,  but most of the interesting stuff is happening on the client side:
-
+Backend
+<ul>
+<li>ASP.NET MVC</li>
+<li>RavenDB</li>
+</ul>
+Client Side 
 <ul>
 <li>React</li>
 <li>React-Bootstrap</li>
